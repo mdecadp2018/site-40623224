@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+<style>
+img {
+    border: 3px solid red;
+}
+</style>
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2018 Fall 分組網站</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='期中作業操作.html'>期中作業操作</a><li><a href='組員操作影片.html'>組員操作影片</a><ul><li><a href='Week1.html'>Week1</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>pelican 網誌 << <a href='pelican 網誌.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片<br /><h1>期中作業操作</h1>
+<p>以下的解說圖片, 是以 ShareX 中的 Task settings 下的 Upload 下的 File name 設定, 將 Name pattern for window capture, 從&nbsp;%pn_%y-%mo-%d_%h-%mi-%s 改為&nbsp;p37_%h-%mi-%s, 表示此一系列的取圖檔, 將會以 p37 加上取圖時間做為檔名, 以資辨識.</p>
+<p>之後, 再利用 CMSimfly 中的 Image Upload 功能, 一次上傳多個圖檔, 放入 images 目錄中引用.</p>
+<p>當使用者開啟 <a href="https://docs.microsoft.com/en-us/sysinternals./../downloads/zoomit">Zoomit</a> 與 <a href="https://getsharex.com/">ShareX</a> 之後, 可以交互利用 Ctrl + 1 以 Zoomit 的功能放大螢幕, 選擇畫面, 以畫筆標示重點, 然後再結合 ShareX 的 Ctrl + PrintScreen 選擇所要取圖的範圍後, 即可逐一在電腦操作過程中, 取得所需要的畫面圖檔, 然後再放入 CMSimfly 內容管理頁面中使用.</p>
+<p>本課程使用以 Python 3.7.0 為主的可攜程式系統, 在 p37 目錄中有 data 目錄, 以及兩個 batch 批次檔案.</p>
+<p>批次檔案是將 Windows 在命令列中可以執行的指令, 寫在副檔名為 bat 的純文字檔案中, 使用者可以直接點擊兩次執行批次檔案中的指令.</p>
+<p>start.bat 用於啟動可攜系統, 而 stop.bat 則用於終止可攜系統, 若終止後在操作系統中無 p37 目錄中的任何應用程式開啟, 則使用者可以安全以 eject 退出帶有 p37 目錄的隨身碟.</p>
+<p>位於 D: 槽的 USB p37 目錄如下圖:</p>
+<p><img src="./../images/p37_09-17-04.png" width="300" height="171" alt=""></p>
+<p>由於在超文件中所引用的圖片檔案, 在無明顯外框標示界定下, 可能會與頁面說明產生混淆, 因此利用 Leo Editor 開啟 cmsimfly.leo, 直接在 Flask 程式中的&nbsp;syntaxhighlight 函式加入設定 img border 的 style css 碼, 可以設定動態內容管理系統, 而修改&nbsp;syntaxhighlight2, 則可修改靜態的頁面 css 設定. 所加入的 css 設定如下:</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;style&gt;
+img {
+    border: 3px solid red;
+}
+&lt;/style&gt;</pre>
+<p>start.bat 批次檔案, 以 SciTE 編輯器開啟.</p>
+<p><img src="./../images/p37_09-18-29.png" width="300" height="391" alt=""></p>
+<p>stop.bat 批次檔案, 以 SciTE 編輯器開啟.</p>
+<p><img src="./../images/p37_09-19-57.png" width="305" height="268" alt=""></p>
+<p>start.bat 批次檔案中的 set 指令區, 主要設定系統的環境變數, Disk&nbsp; 為自訂變數名稱.</p>
+<p><img src="./../images/p37_09-20-41.png" width="300" height="209" alt=""></p>
+<p>登入 github 後畫面, 可以切換到 profile 或 repositories.</p>
+<p><img src="./../images/p37_09-23-25.png" width="322" height="421" alt=""></p>
+<p>登入 github 後, 可以利用 <a href="https://github.com">https://github.com</a>&nbsp;連結到有權限擷取的倉儲列表.</p>
+<p><img src="./../images/p37_09-24-02.png" width="447" height="367" alt=""></p>
+<p>進入先前所認領的期中作業倉儲.</p>
+<p><img src="./../images/p37_09-24-45.png" width="501" height="204" alt=""></p>
+<p>將遠端的作業倉儲內容, git clone 一份到近端, 以便在工作目錄中進行改版.</p>
+<p><img src="./../images/p37_09-26-46.png" width="652" height="304" alt=""></p>
+<p>將遠端倉儲 git clone 到近端後, 利用 cd 更換目錄, 進入作業倉儲.</p>
+<p><img src="./../images/p37_09-27-53.png" width="705" height="478" alt=""></p>
+<p>將遠端的作業倉儲 git clone 到近端後, 進入該倉儲目錄後, 可以利用 python wsgi.py 啟動動態內容管理系統.</p>
+<p><img src="./../images/p37_09-28-26.png" width="735" height="662" alt=""></p>
+<p>python wsgi.py 指令表示要利用 Python 解譯器執行作業目錄中的 wsgi.py 程式, 啟動後, 可以利用瀏覽器連結近端的 CMSimfly 內容管理系統.</p>
+<p><img src="./../images/p37_09-30-03.png" width="600" height="394" alt=""></p>
+<p><img src="./../images/p37_09-30-25.png" width="600" height="219" alt=""></p>
+<p>由於近端利用 python wsgi.py 啟動時, 所使用的 SSL 數位簽章為 self-signed, 因此需要進一步確認後, 才能完成連結. 但是 self-signed 的數位簽章, 並未經過第三方公證, 因此被瀏覽器認定此一連結為 unsafe, 不過, 因此此一 self-signed 所建立的 https 連結, 旨在瀏覽器與伺服器間傳遞資料時, 能夠透過此一數位簽章編碼, 以避免在兩端間以明碼傳遞資料, 尤其當伺服器安裝在區域網路或廣域網路時, 直接使用 http 協定傳遞使用者的帳號與密碼, 是沒有必要且容易被中途攔截.</p>
+<p><img src="./../images/p37_09-30-56.png" width="600" height="313" alt=""></p>
+<p>完成連結後將可在近端以內建的 admin 密碼登入, 開始維護網站內容.</p>
+<p><img src="./../images/p37_09-31-24.png" width="785" height="570" alt=""></p>
+<p>利用滑鼠點擊 login 登入.</p>
+<p><img src="./../images/p37_09-31-57.png" width="600" height="522" alt=""></p>
+<p>輸入 admin 後登入.</p>
+<p><img src="./../images/p37_09-32-19.png" width="671" height="477" alt=""></p>
+<p>登入後將內定轉到 edit all 的畫面, 也就是編輯整個位於 config 目錄中的 content.htm 檔案.</p>
+<p><img src="./../images/p37_09-32-40.png" width="600" height="335" alt=""></p>
+<p>需要編輯其中任何一頁時, 先連結到該頁面後, 按下 Edit 後可以在 tinymce4 編輯器中編輯內容.</p>
+<p><img src="./../images/p37_09-33-21.png" width="528" height="498" alt=""></p>
+<p><img src="./../images/p37_09-33-50.png" width="741" height="531" alt=""></p>
+<p><img src="./../images/p37_09-34-10.png" width="600" height="284" alt=""></p>
+<p>由於 CMSimfly 動態系統中, 以 h1, h2, h3 等三個超文件標註作為各頁面標題, 且循序排列各 h1, h2 與 h3 標題內容, 因此使用者可以在上一個頁面 (可能是 h1, h2 或 h3 頁面) 超文件最後面加入標題, 或者在下一頁標題的最前方加入頁面標題, 下列畫面選擇在組員操作影片上方新增一個 h1 標題頁面, 標題為"期中作業操作".</p>
+<p><img src="./../images/p37_09-35-01.png" width="418" height="445" alt=""></p>
+<p><img src="./../images/p37_09-35-51.png" width="600" height="353" alt=""></p>
+<p></p><br />pelican 網誌 << <a href='pelican 網誌.html'>Previous</a> <a href='組員操作影片.html'>Next</a> >> 組員操作影片</section></div></body></html>

@@ -25,7 +25,7 @@
 <v t="amd.20160714225245.2" a="E"><vh>about cmsimfly</vh>
 <v t="amd.20160714230137.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20160714230155.1"><vh>@edit LICENSE</vh></v>
-<v t="amd.20160715000709.1" a="E"><vh>註解</vh>
+<v t="amd.20160715000709.1"><vh>註解</vh>
 <v t="amd.20160715211540.1"><vh>處理 url 與 edit</vh></v>
 <v t="amd.20160715213810.1"><vh>必須處理 downloads 與 images 目錄</vh></v>
 <v t="leo.20180625155103.1" a="E"><vh>改為 pybean based</vh>
@@ -36,7 +36,7 @@
 <v t="leo.20180712144340.1"><vh>改回手動轉靜態網頁</vh></v>
 </v>
 </v>
-<v t="leo.20180701102916.1" a="E"><vh>2018Summer 改版</vh>
+<v t="leo.20180701102916.1"><vh>2018Summer 改版</vh>
 <v t="leo.20180702104314.1"><vh>整合設定檔案</vh></v>
 <v t="leo.20180701205822.1"><vh>editorhead 修改</vh></v>
 <v t="leo.20180701212101.1"><vh>有關 Cango library</vh></v>
@@ -947,6 +947,11 @@ window.location= 'https://' + location.host + location.pathname + location.searc
 &lt;script type="text/javascript" src="/static/gearUtils-05.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;style&gt;
+img {
+    border: 3px solid red;
+}
+&lt;/style&gt;
 '''
 
 
@@ -1453,10 +1458,7 @@ def file_selector():
 
 
 </t>
-<t tx="amd.20160715160505.1">#@app.route('/download_list', defaults={'edit':1})
-#@app.route('/download_list/&lt;path:edit&gt;')
-@app.route('/download_list', methods=['GET'])
-#def download_list(edit, item_per_page=5, page=1, keyword=None):
+<t tx="amd.20160715160505.1">@app.route('/download_list', methods=['GET'])
 def download_list():
     """List files in downloads directory."""
     if not isAdmin():
@@ -1475,11 +1477,14 @@ def download_list():
         else:
             item_per_page = request.args.get('item_per_page')
         if not request.args.get('keyword'):
-            keyword = None
+            keyword = ""
         else:
             keyword = request.args.get('keyword')
-        
+            session['download_keyword'] = keyword
     files = os.listdir(download_dir)
+    if keyword is not "":
+        files = [elem for elem in files if str(keyword) in elem]
+    files.sort()
     total_rows = len(files)
     totalpage = math.ceil(total_rows/int(item_per_page))
     starti = int(item_per_page) * (int(page) - 1) + 1
@@ -1580,12 +1585,32 @@ def download_list():
 
 
 </t>
-<t tx="amd.20160715160642.1">@app.route('/image_list', defaults={'edit':1})
-@app.route('/image_list/&lt;path:edit&gt;')
-def image_list(edit, item_per_page=5, page=1, keyword=None):
+<t tx="amd.20160715160642.1">@app.route('/image_list', methods=['GET'])
+def image_list():
     if not isAdmin():
         return redirect("/login")
+    else:
+        if not request.args.get('edit'):
+            edit= 1
+        else:
+            edit = request.args.get('edit')
+        if not request.args.get('page'):
+            page = 1
+        else:
+            page = request.args.get('page')
+        if not request.args.get('item_per_page'):
+            item_per_page = 10
+        else:
+            item_per_page = request.args.get('item_per_page')
+        if not request.args.get('keyword'):
+            keyword = ""
+        else:
+            keyword = request.args.get('keyword')
+            session['image_keyword'] = keyword
     files = os.listdir(image_dir)
+    if keyword is not "":
+        files = [elem for elem in files if str(keyword) in elem]
+    files.sort()
     total_rows = len(files)
     totalpage = math.ceil(total_rows/int(item_per_page))
     starti = int(item_per_page) * (int(page) - 1) + 1
@@ -1599,13 +1624,13 @@ def image_list(edit, item_per_page=5, page=1, keyword=None):
         if int(page) &gt; 1:
             outstring += "&lt;a href='"
             outstring += "image_list?&amp;amp;page=1&amp;amp;item_per_page=" + \
-                              str(item_per_page) + "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              str(item_per_page) + "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;&lt;&lt;&lt;/a&gt; "
             page_num = int(page) - 1
             outstring += "&lt;a href='"
             outstring += "image_list?&amp;amp;page=" + str(page_num) + \
                               "&amp;amp;item_per_page=" + str(item_per_page) + \
-                              "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;Previous&lt;/a&gt; "
         span = 10
         for index in range(int(page)-span, int(page)+span):
@@ -1617,7 +1642,7 @@ def image_list(edit, item_per_page=5, page=1, keyword=None):
                     outstring += "&lt;a href='"
                     outstring += "image_list?&amp;amp;page=" + str(page_now) + \
                                       "&amp;amp;item_per_page=" + str(item_per_page) + \
-                                      "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                                      "&amp;amp;keyword=" + str(session.get('image_keyword'))
                     outstring += "'&gt;" + str(page_now) + "&lt;/a&gt; "
 
         if notlast == True:
@@ -1625,12 +1650,12 @@ def image_list(edit, item_per_page=5, page=1, keyword=None):
             outstring += " &lt;a href='"
             outstring += "image_list?&amp;amp;page=" + str(nextpage) + \
                               "&amp;amp;item_per_page=" + str(item_per_page) + \
-                              "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;Next&lt;/a&gt;"
             outstring += " &lt;a href='"
             outstring += "image_list?&amp;amp;page=" + str(totalpage) + \
                               "&amp;amp;item_per_page=" + str(item_per_page) + \
-                              "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;&gt;&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;"
         if (int(page) * int(item_per_page)) &lt; total_rows:
             notlast = True
@@ -1642,13 +1667,13 @@ def image_list(edit, item_per_page=5, page=1, keyword=None):
         if int(page) &gt; 1:
             outstring += "&lt;a href='"
             outstring += "image_list?&amp;amp;page=1&amp;amp;item_per_page=" + \
-                              str(item_per_page) + "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              str(item_per_page) + "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;&lt;&lt;&lt;/a&gt; "
             page_num = int(page) - 1
             outstring += "&lt;a href='"
             outstring += "image_list?&amp;amp;page=" + str(page_num) + \
                               "&amp;amp;item_per_page=" + str(item_per_page) + \
-                              "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;Previous&lt;/a&gt; "
         span = 10
         for index in range(int(page)-span, int(page)+span):
@@ -1660,19 +1685,19 @@ def image_list(edit, item_per_page=5, page=1, keyword=None):
                     outstring += "&lt;a href='"
                     outstring += "image_list?&amp;amp;page=" + str(page_now) + \
                                       "&amp;amp;item_per_page=" + str(item_per_page) + \
-                                      "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                                      "&amp;amp;keyword=" + str(session.get('image_keyword'))
                     outstring += "'&gt;"+str(page_now) + "&lt;/a&gt; "
         if notlast == True:
             nextpage = int(page) + 1
             outstring += " &lt;a href='"
             outstring += "image_list?&amp;amp;page=" + str(nextpage) + \
                               "&amp;amp;item_per_page=" + str(item_per_page) + \
-                              "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;Next&lt;/a&gt;"
             outstring += " &lt;a href='"
             outstring += "image_list?&amp;amp;page=" + str(totalpage) + \
                               "&amp;amp;item_per_page=" + str(item_per_page) + \
-                              "&amp;amp;keyword=" + str(session.get('download_keyword'))
+                              "&amp;amp;keyword=" + str(session.get('image_keyword'))
             outstring += "'&gt;&gt;&gt;&lt;/a&gt;"
     else:
         outstring += "no data!"
@@ -2467,6 +2492,11 @@ init_mathjax();
 &lt;script type="text/javascript" src="./../static/gearUtils-05.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
 &lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;style&gt;
+img {
+    border: 3px solid red;
+}
+&lt;/style&gt;
 '''
 
 
