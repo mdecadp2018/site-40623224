@@ -13,4 +13,4 @@ onshape : https://www.onshape.com
 
 投影片:https://mdecadp2018.github.io/site-40623224/reveal/index.html#/
 
-blog:https://mdecadp2018.github.io/site-40623224/blog
+blog:https://mdecadp2018.github.io/site-40623224/blog/
