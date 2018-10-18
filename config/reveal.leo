@@ -21,8 +21,32 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018215848.1"><vh>W1</vh>
+<v t="leo.20181018215848.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220032.1" a="E"><vh>W2</vh>
+<v t="leo.20181018220032.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220033.1" a="E"><vh>W3</vh>
+<v t="leo.20181018220033.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220035.1"><vh>W4</vh>
+<v t="leo.20181018220035.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220228.1"><vh>W5</vh>
+<v t="leo.20181018220228.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220237.1"><vh>W6</vh>
+<v t="leo.20181018220237.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220314.1" a="E"><vh>W7</vh>
+<v t="leo.20181018220314.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20181018220316.1" a="E"><vh>W8</vh>
+<v t="leo.20181018220316.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
@@ -127,15 +151,26 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">## 2018Fall 40623224 網際簡報
+<t tx="leo.20180827201621.10">###  40623224 網際簡報
 
-### 虎科大機械設計工程系
+#### 虎科大機械設計工程系
+
+* [倉儲](https://github.com/mdecadp2018/site-40623224)
+
+* [網站](https://mdecadp2018.github.io/site-40623224/content/)
+
+* [簡報](https://mdecadp2018.github.io/site-40623224/reveal/)
+
+* [網誌](https://mdecadp2018.github.io/site-40623224/blog)
+
+* [Onshape](https://www.onshape.com)
 
 &lt;small&gt;
 Created by [KMOLab](http://lab.kmol.info/)
 &lt;/small&gt;
 
-[2018 Fall 分組網誌](./../blog/index.html)
+#### [2018 Fall 分組網誌](./../blog/index.html)
+
 
 
 </t>
@@ -346,6 +381,138 @@ make.start()
 * 按 o 鍵可以切換單張或全域檢視 (overview)
 * 按 b 或 . 鍵可以切換螢幕黑屏 (black)
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
+
+</t>
+<t tx="leo.20181018215848.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018215848.2">#  W1
+
+心得:第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。
+
+
+
+</t>
+<t tx="leo.20181018220032.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220032.2">#  W2
+
+心得:第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。
+
+
+
+</t>
+<t tx="leo.20181018220033.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220033.2">#  W3
+
+2018/10/24中秋節放假~
+
+石頭日式無煙燒肉
+
+散播歡樂散播愛
+
+
+
+</t>
+<t tx="leo.20181018220035.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220035.2">#  W4
+
+心得:
+
+
+
+</t>
+<t tx="leo.20181018220228.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220228.2">#  W5
+
+心得:
+
+
+
+</t>
+<t tx="leo.20181018220237.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220237.2">#  W6
+
+心得:
+
+
+
+</t>
+<t tx="leo.20181018220314.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220314.2">#  W7
+
+心得:
+
+
+
+</t>
+<t tx="leo.20181018220316.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20181018220316.2">#  W8
+
+心得:
+
+
 
 </t>
 </tnodes>
