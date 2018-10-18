@@ -20,7 +20,7 @@
 <v t="leo.20170908162839.1"><vh>沒有 disqus 論壇</vh>
 <v t="yen.20170108171733.2"><vh>@button local-blog</vh></v>
 </v>
-<v t="leo.20170908162904.1"><vh>有 disqus 論壇</vh>
+<v t="leo.20170908162904.1" a="E"><vh>有 disqus 論壇</vh>
 <v t="leo.20170709224430.1"><vh>@button github-blog</vh></v>
 </v>
 <v t="yen.20170108171733.5"><vh>Pelican 設定</vh>
@@ -70,6 +70,11 @@
 <v t="leo.20180115115910.1" a="E"><vh>2018</vh>
 <v t="leo.20180423103639.1" a="E"><vh>2018 Fall CP 課程</vh>
 <v t="leo.20180423103656.1"><vh>@edit 20180718.md</vh></v>
+<v t="leo.20181018221824.1"><vh>@edit 20180910.md</vh></v>
+<v t="leo.20181018224744.1"><vh>@edit 20180917.md</vh></v>
+<v t="leo.20181018224746.1"><vh>@edit 20180924.md</vh></v>
+<v t="leo.20181018224753.1"><vh>@edit 20181001.md</vh></v>
+<v t="leo.20181018224755.1"><vh>@edit 20181008.md</vh></v>
 </v>
 </v>
 </v>
