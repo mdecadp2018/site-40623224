@@ -13,7 +13,7 @@
 </summary><content type="html">&lt;p&gt;如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲&lt;/p&gt;
 
 
-&lt;p&gt;老師旗下的40623224每週學習作業倉儲&lt;/p&gt;
+&lt;h2&gt;老師旗下的40623224每週學習作業倉儲&lt;/h2&gt;
 &lt;p&gt;Step1:依照Week1先去mde.tw領取個人倉儲&lt;/p&gt;
 &lt;p&gt;Step2:利用 Settings 將內定 branch 設為 gh-pages&lt;/p&gt;
 &lt;p&gt;Step3: git clone 作業倉儲至近端後, 著手將練習 Onshape 的各項過程資料存入 CMSimfly, Reveal.js 與 Pelican Blog 中&lt;/p&gt;
@@ -23,6 +23,11 @@
 </summary><content type="html">&lt;p&gt;如何利用 p37 中的 git 建立個人的 Github Pages 網站&lt;/p&gt;
 
 
+&lt;h2&gt;Q&amp;amp;A:&lt;/h2&gt;
+&lt;p&gt;Q:什麼是Onshape?&lt;/p&gt;
+&lt;p&gt;A:Onshape是一個現代化的CAD系統，可以消除設計僵局，幫助工程師做最好的工作。Onshape將高級建模工具和設計數據管理結合在一個安全的雲工作空間中，該工作空間已迅速成為全球數千家公司的主要CAD系統。&lt;/p&gt;
+&lt;p&gt;Q:為什麼選擇Onshape?&lt;/p&gt;
+&lt;p&gt;A:因為Onshape可以主動幫助我們並保護我們的知識產權，而它有七種不同的安全措施(即密碼保護訪問、雙因素認證、數據庫備份程序、專用服務器、通信安全、加密、第三方測試)。&lt;/p&gt;
 &lt;p&gt;step1:建立一個新的倉庫,名字為自己的學號.github.io,權限設為公開&lt;/p&gt;
 &lt;p&gt;step2:克隆新的倉庫的網址,資料夾名字取為40623224,按Enter&lt;/p&gt;
 &lt;p&gt;step3:除了.git和README.md不能複製,其餘都複製在自己的資料夾&lt;/p&gt;
@@ -30,11 +35,6 @@
 &lt;p&gt;step5:設定自己提交的email和名字&lt;/p&gt;
 &lt;p&gt;step6:開啟進端進去修改40623224&lt;/p&gt;
 &lt;p&gt;step7:在重複step4的步驟,在git push上傳&lt;/p&gt;
-&lt;h2&gt;Q&amp;amp;A:&lt;/h2&gt;
-&lt;p&gt;Q:什麼是Onshape?&lt;/p&gt;
-&lt;p&gt;A:Onshape是一個現代化的CAD系統，可以消除設計僵局，幫助工程師做最好的工作。Onshape將高級建模工具和設計數據管理結合在一個安全的雲工作空間中，該工作空間已迅速成為全球數千家公司的主要CAD系統。&lt;/p&gt;
-&lt;p&gt;Q:為什麼選擇Onshape?&lt;/p&gt;
-&lt;p&gt;A:因為Onshape可以主動幫助我們並保護我們的知識產權，而它有七種不同的安全措施(即密碼保護訪問、雙因素認證、數據庫備份程序、專用服務器、通信安全、加密、第三方測試)。&lt;/p&gt;
 &lt;h2&gt;心得:&lt;/h2&gt;
 &lt;p&gt;第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。&lt;/p&gt;</content><category term="W1"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-09T11:00:00+08:00</published><updated>2018-09-09T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-09-09:/site-40623224/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
