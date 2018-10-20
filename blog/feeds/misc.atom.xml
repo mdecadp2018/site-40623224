@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623224/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623224/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623224/blog/</id><updated>2018-10-08T11:00:00+08:00</updated><entry><title>Week-5</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W5.html" rel="alternate"></link><published>2018-10-08T11:00:00+08:00</published><updated>2018-10-08T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-08:/site-40623224/blog/2018-Fall-Project-Blog-W5.html</id><summary type="html">&lt;p&gt;W5&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;W5&lt;/p&gt;
-</content><category term="W5"></category></entry><entry><title>Week-4</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W4.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623224/blog/2018-Fall-Project-Blog-W4.html</id><summary type="html">&lt;p&gt;Onshape week1 課程使用說明&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40623224/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40623224/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40623224/blog/</id><updated>2018-10-08T11:00:00+08:00</updated><entry><title>Week-5</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W5.html" rel="alternate"></link><published>2018-10-08T11:00:00+08:00</published><updated>2018-10-08T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-08:/site-40623224/blog/2018-Fall-Project-Blog-W5.html</id><summary type="html">&lt;p&gt;Onshape week 2 課程使用說明&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Onshape week 2 課程使用說明&lt;/p&gt;
+
+
+&lt;h2&gt;學習要點:&lt;/h2&gt;
+&lt;p&gt;1.簡介"設計意圖" (design intent)&lt;/p&gt;
+&lt;p&gt;2.設定尺寸 (dimensions) 與約束 (constraints)&lt;/p&gt;
+&lt;p&gt;3.自動推理 (automatic inferencing)&lt;/p&gt;
+&lt;p&gt;4.繪製精確的零件 (accurate part)&lt;/p&gt;
+&lt;p&gt;5.草圖繪製練習&lt;/p&gt;
+&lt;p&gt;6.運用與建立平面 (planes)&lt;/p&gt;
+&lt;p&gt;7.建立圓角 (fillets) 與倒角 (chamfers)&lt;/p&gt;
+&lt;p&gt;8.使用多個 (multiple) 草圖區域 (sketch regions)&lt;/p&gt;
+&lt;p&gt;9.基本零件&lt;/p&gt;
+&lt;p&gt;10.繪製時鐘模型 - 用於設計意圖教學&lt;/p&gt;
+&lt;p&gt;11.各種簡單的幾何形狀 (geometric shapes)&lt;/p&gt;
+&lt;h2&gt;影片連結:&lt;/h2&gt;
+&lt;p&gt;練習繪製Onahape Week2-1&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=zfDkWQMvFSU&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week2-2&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=_tRrUEvcGuo&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week2-3&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=Uale03G8mgM&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week2-4&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=FzpaCGQ4BVc&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week2-5&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=KVAkH555LrY&lt;/p&gt;
+&lt;h2&gt;心得:&lt;/h2&gt;
+&lt;p&gt;第五週進入到Onshape第二週，這一週開始必須要了解到自己的設計意圖是什麼，還有設定尺寸以及如何去約束他，並且要正確和精準。&lt;/p&gt;</content><category term="W5"></category></entry><entry><title>Week-4</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W4.html" rel="alternate"></link><published>2018-10-01T11:00:00+08:00</published><updated>2018-10-01T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-01:/site-40623224/blog/2018-Fall-Project-Blog-W4.html</id><summary type="html">&lt;p&gt;Onshape week1 課程使用說明&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Onshape week1 課程使用說明&lt;/p&gt;
 
 
@@ -22,14 +48,16 @@
 https://www.youtube.com/watch?v=iuG8icpePUc&lt;/p&gt;
 &lt;p&gt;練習繪製Onahape Week1-2
 https://www.youtube.com/watch?v=wiBBlz0B_mM&lt;/p&gt;
-&lt;p&gt;練習繪製Onahape Week1-3
-https://www.youtube.com/watch?v=DI3Nb21IKZs&lt;/p&gt;
-&lt;p&gt;練習繪製Onahape Week1-4
-https://www.youtube.com/watch?v=HknsBNdyPIg&lt;/p&gt;
-&lt;p&gt;練習繪製Onahape Week1-5
-https://www.youtube.com/watch?v=W5IC44XT-Ek&lt;/p&gt;
-&lt;p&gt;練習繪製Onahape Week1-6
-https://www.youtube.com/watch?v=7fJP3p3n7IM&lt;/p&gt;</content><category term="W4"></category></entry><entry><title>Week-3</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W3.html" rel="alternate"></link><published>2018-09-24T11:00:00+08:00</published><updated>2018-09-24T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-09-24:/site-40623224/blog/2018-Fall-Project-Blog-W3.html</id><summary type="html">&lt;p&gt;2018/09/24中秋節放假~&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week1-3&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=DI3Nb21IKZs&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week1-4&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=HknsBNdyPIg&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week1-5&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=W5IC44XT-Ek&lt;/p&gt;
+&lt;p&gt;練習繪製Onahape Week1-6&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=7fJP3p3n7IM&lt;/p&gt;
+&lt;h2&gt;心得:&lt;/h2&gt;
+&lt;p&gt;第四週開始學習Onshape，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。&lt;/p&gt;</content><category term="W4"></category></entry><entry><title>Week-3</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W3.html" rel="alternate"></link><published>2018-09-24T11:00:00+08:00</published><updated>2018-09-24T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-09-24:/site-40623224/blog/2018-Fall-Project-Blog-W3.html</id><summary type="html">&lt;p&gt;2018/09/24中秋節放假~&lt;/p&gt;
 &lt;p&gt;石頭日式無煙燒肉&lt;/p&gt;
 &lt;p&gt;散播歡樂散播愛&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018/09/24中秋節放假~&lt;/p&gt;
