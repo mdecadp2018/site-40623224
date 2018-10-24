@@ -9,6 +9,7 @@ header{
   padding: 40px;
   background-position: top 0px right 0px, top 0px right 500px, top 0px right 1000px;
   background-repeat:no-repeat, no-repeat;
+  #background-attachment : fixed;
 }
 confmenu
 {
