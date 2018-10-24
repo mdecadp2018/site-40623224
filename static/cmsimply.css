@@ -2,8 +2,13 @@
   position: relative;
 }
 header{
-  background: #ccc;
-  padding: 20px;
+  background-image: url("https://media1.tenor.com/images/edb2c458ad8a192eae5229e747221271/tenor.gif?itemid=11204899"),
+                               url("https://67.media.tumblr.com/a3c92cfc60cd7be6274187e2fb9b96fe/tumblr_o2sxyrE4rl1qa94xto1_500.gif"),       
+							   url("https://lh4.googleusercontent.com/-ahpnTP-EpAk/AAAAAAAAAAI/AAAAAAAAAZE/Ibsbyp-sIco/photo.jpg"),
+							 linear-gradient(to left, rgba(220, 20, 60, 1),  rgba(255, 255, 0, 0.6));
+  padding: 40px;
+  background-position: top 0px right 0px, top 0px right 500px, top 0px right 1000px;
+  background-repeat:no-repeat, no-repeat;
 }
 confmenu
 {
@@ -201,6 +206,14 @@ background-color: white;
 width: 195px;
 }
 body {
+  background-image: url("https://pa1.narvii.com/6326/98676051371002895054e778b498d031d7432219_hq.gif"), 
+							   url("https://media.giphy.com/media/HPFnMAD65WGfS/giphy.gif"),
+                               linear-gradient(to left, rgba(30, 75, 115, 1),  rgba(255, 255, 255, 0));
   margin-bottom: 120px;
+  background-position: top 0px right 0px, top 0px right 500px;
+  background-repeat:no-repeat, no-repeat ;
+  background-repeat : repeat-y, repeat-y ;
+  background-attachment : fixed;
 }
+
 
