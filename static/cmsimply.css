@@ -209,10 +209,11 @@ body {
   background-image: url("https://pa1.narvii.com/6326/98676051371002895054e778b498d031d7432219_hq.gif"), 
 							   url("https://lh4.googleusercontent.com/-ahpnTP-EpAk/AAAAAAAAAAI/AAAAAAAAAZE/Ibsbyp-sIco/photo.jpg"),
 							   url("https://i.imgur.com/sZlVIcY.gif"),
+							   url("https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8601a18b87d6277f705d19c022381f30e824fcff.jpg"),
                                linear-gradient(to left, rgba(30, 75, 115, 1),  rgba(255, 255, 255, 0));
   margin-bottom: 120px;
-  background-position: top 0px right 0px, top 36% right 30%, top 0% right 30%;
-  background-repeat:repeat-y, no-repeat, no-repeat ;
+  background-position: top 0px right 0px, top 36% right 30%, top 0% right 30%, top 100% right 30%;
+  background-repeat:repeat-y, no-repeat, no-repeat, no-repeat ;
   background-attachment : fixed;
 }
 
