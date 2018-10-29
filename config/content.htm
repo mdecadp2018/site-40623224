@@ -1,186 +1,1 @@
-<h1>簡介</h1>
-<p>2018 Fall&nbsp; 40623224&nbsp; 電腦輔助設計實習課程分組網站</p>
-<p>mdecadp2018 /&nbsp;<a href="https://github.com/mdecadp2018/site-40623224">site-40623224</a></p>
-<p>github /&nbsp;<a href="https://github.com/40623224/40623224.github.io">40623224.github.io</a></p>
-<p><a href="https://mdecadp2018.github.io/site-40623224/reveal/index.html#/">投影片</a></p>
-<p></p>
-<p></p>
-<h2>CMSimfly 網站</h2>
-<p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
-<h2>reveal 投影片</h2>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
-<h2>pelican 網誌</h2>
-<p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p>
-<p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
-<p>更改 @edit publishconf.py 中的 SITEURL</p>
-<p></p>
-<h1>期中作業操作</h1>
-<p>以下的解說圖片, 是以 ShareX 中的 Task settings 下的 Upload 下的 File name 設定, 將 Name pattern for window capture, 從&nbsp;%pn_%y-%mo-%d_%h-%mi-%s 改為&nbsp;p37_%h-%mi-%s, 表示此一系列的取圖檔, 將會以 p37 加上取圖時間做為檔名, 以資辨識.</p>
-<p>之後, 再利用 CMSimfly 中的 Image Upload 功能, 一次上傳多個圖檔, 放入 images 目錄中引用.</p>
-<p>當使用者開啟 <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit">Zoomit</a> 與 <a href="https://getsharex.com/">ShareX</a> 之後, 可以交互利用 Ctrl + 1 以 Zoomit 的功能放大螢幕, 選擇畫面, 以畫筆標示重點, 然後再結合 ShareX 的 Ctrl + PrintScreen 選擇所要取圖的範圍後, 即可逐一在電腦操作過程中, 取得所需要的畫面圖檔, 然後再放入 CMSimfly 內容管理頁面中使用.</p>
-<p>本課程使用以 Python 3.7.0 為主的可攜程式系統, 在 p37 目錄中有 data 目錄, 以及兩個 batch 批次檔案.</p>
-<p>批次檔案是將 Windows 在命令列中可以執行的指令, 寫在副檔名為 bat 的純文字檔案中, 使用者可以直接點擊兩次執行批次檔案中的指令.</p>
-<p>start.bat 用於啟動可攜系統, 而 stop.bat 則用於終止可攜系統, 若終止後在操作系統中無 p37 目錄中的任何應用程式開啟, 則使用者可以安全以 eject 退出帶有 p37 目錄的隨身碟.</p>
-<p>位於 D: 槽的 USB p37 目錄如下圖:</p>
-<p><img src="/images/p37_09-17-04.png" width="300" height="171" alt=""></p>
-<p>由於在超文件中所引用的圖片檔案, 在無明顯外框標示界定下, 可能會與頁面說明產生混淆, 因此利用 Leo Editor 開啟 cmsimfly.leo, 直接在 Flask 程式中的&nbsp;syntaxhighlight 函式加入設定 img border 的 style css 碼, 可以設定動態內容管理系統, 而修改&nbsp;syntaxhighlight2, 則可修改靜態的頁面 css 設定. 所加入的 css 設定如下:</p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;style&gt;
-img {
-    border: 3px solid red;
-}
-&lt;/style&gt;</pre>
-<p>start.bat 批次檔案, 以 SciTE 編輯器開啟.</p>
-<p><img src="/images/p37_09-18-29.png" width="300" height="391" alt=""></p>
-<p>stop.bat 批次檔案, 以 SciTE 編輯器開啟.</p>
-<p><img src="/images/p37_09-19-57.png" width="305" height="268" alt=""></p>
-<p>start.bat 批次檔案中的 set 指令區, 主要設定系統的環境變數, Disk&nbsp; 為自訂變數名稱.</p>
-<p><img src="/images/p37_09-20-41.png" width="300" height="209" alt=""></p>
-<p>登入 github 後畫面, 可以切換到 profile 或 repositories.</p>
-<p><img src="/images/p37_09-23-25.png" width="322" height="421" alt=""></p>
-<p>登入 github 後, 可以利用 <a href="https://github.com">https://github.com</a>&nbsp;連結到有權限擷取的倉儲列表.</p>
-<p><img src="/images/p37_09-24-02.png" width="447" height="367" alt=""></p>
-<p>進入先前所認領的期中作業倉儲.</p>
-<p><img src="/images/p37_09-24-45.png" width="501" height="204" alt=""></p>
-<p>將遠端的作業倉儲內容, git clone 一份到近端, 以便在工作目錄中進行改版.</p>
-<p><img src="/images/p37_09-26-46.png" width="652" height="304" alt=""></p>
-<p>將遠端倉儲 git clone 到近端後, 利用 cd 更換目錄, 進入作業倉儲.</p>
-<p><img src="/images/p37_09-27-53.png" width="705" height="478" alt=""></p>
-<p>將遠端的作業倉儲 git clone 到近端後, 進入該倉儲目錄後, 可以利用 python wsgi.py 啟動動態內容管理系統.</p>
-<p><img src="/images/p37_09-28-26.png" width="735" height="662" alt=""></p>
-<p>python wsgi.py 指令表示要利用 Python 解譯器執行作業目錄中的 wsgi.py 程式, 啟動後, 可以利用瀏覽器連結近端的 CMSimfly 內容管理系統.</p>
-<p><img src="/images/p37_09-30-03.png" width="600" height="394" alt=""></p>
-<p><img src="/images/p37_09-30-25.png" width="600" height="219" alt=""></p>
-<p>由於近端利用 python wsgi.py 啟動時, 所使用的 SSL 數位簽章為 self-signed, 因此需要進一步確認後, 才能完成連結. 但是 self-signed 的數位簽章, 並未經過第三方公證, 因此被瀏覽器認定此一連結為 unsafe, 不過, 因此此一 self-signed 所建立的 https 連結, 旨在瀏覽器與伺服器間傳遞資料時, 能夠透過此一數位簽章編碼, 以避免在兩端間以明碼傳遞資料, 尤其當伺服器安裝在區域網路或廣域網路時, 直接使用 http 協定傳遞使用者的帳號與密碼, 是沒有必要且容易被中途攔截.</p>
-<p><img src="/images/p37_09-30-56.png" width="600" height="313" alt=""></p>
-<p>完成連結後將可在近端以內建的 admin 密碼登入, 開始維護網站內容.</p>
-<p><img src="/images/p37_09-31-24.png" width="785" height="570" alt=""></p>
-<p>利用滑鼠點擊 login 登入.</p>
-<p><img src="/images/p37_09-31-57.png" width="600" height="522" alt=""></p>
-<p>輸入 admin 後登入.</p>
-<p><img src="/images/p37_09-32-19.png" width="671" height="477" alt=""></p>
-<p>登入後將內定轉到 edit all 的畫面, 也就是編輯整個位於 config 目錄中的 content.htm 檔案.</p>
-<p><img src="/images/p37_09-32-40.png" width="600" height="335" alt=""></p>
-<p>需要編輯其中任何一頁時, 先連結到該頁面後, 按下 Edit 後可以在 tinymce4 編輯器中編輯內容.</p>
-<p><img src="/images/p37_09-33-21.png" width="528" height="498" alt=""></p>
-<p><img src="/images/p37_09-33-50.png" width="741" height="531" alt=""></p>
-<p><img src="/images/p37_09-34-10.png" width="600" height="284" alt=""></p>
-<p>由於 CMSimfly 動態系統中, 以 h1, h2, h3 等三個超文件標註作為各頁面標題, 且循序排列各 h1, h2 與 h3 標題內容, 因此使用者可以在上一個頁面 (可能是 h1, h2 或 h3 頁面) 超文件最後面加入標題, 或者在下一頁標題的最前方加入頁面標題, 下列畫面選擇在組員操作影片上方新增一個 h1 標題頁面, 標題為"期中作業操作".</p>
-<p><img src="/images/p37_09-35-01.png" width="418" height="445" alt=""></p>
-<p><img src="/images/p37_09-35-51.png" width="600" height="353" alt=""></p>
-<p></p>
-<h1>組員操作影片</h1>
-<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
-<h2>Week1</h2>
-<p><strong>step1:</strong>建立一個新的倉庫,名字為自己的學號.github.io,權限設為公開</p>
-<p><img src="/images/1538667461839.jpg" width="500" height="230" alt=""></p>
-<p><strong>step2:</strong>克隆新的倉庫的網址,資料夾名字取為40623224,按Enter</p>
-<p>git clone https://github.com/40623224/40623224.github.io 40623224</p>
-<p><img src="/images/1538668182882.jpg" width="500" height="77" alt=""></p>
-<p><strong>step3:</strong>除了.git和README.md不能複製,其餘都複製在自己的資料夾</p>
-<p><img src="/images/1538668434424.jpg" width="500" height="340" alt=""></p>
-<p><strong>step4:</strong>先看自己的狀態然後增加,再提交,推送的名稱為initial add</p>
-<p><img src="/images/1538668882174.jpg" width="500" height="58" alt=""></p>
-<p><img src="/images/1538668896157.jpg" width="500" height="55" alt=""></p>
-<p><img src="/images/1538668954942.jpg" width="500" height="59" alt=""></p>
-<p><strong>step5:</strong>設定自己提交的email和名字</p>
-<p><img src="/images/1538669257821.jpg" width="500" height="236" alt=""></p>
-<p><strong>step6:</strong>開啟進端<a>https://localhost:8443進去修改40623224</a></p>
-<p><img src="/images/1538669755721.jpg" width="500" height="53" alt=""></p>
-<p><img src="/images/1538669520622.jpg" width="500" height="51" alt=""></p>
-<p><img src="/images/1538669793949.jpg" width="500" height="100" alt=""></p>
-<p><strong>step7:</strong>在重複step4的步驟,在git push上傳</p>
-<p><img src="/images/1538670030580.jpg" width="500" height="52" alt=""></p>
-<p>完成gif圖:</p>
-<p><img src="/images/1538670108214.gif" width="500" height="348" alt=""></p>
-<p><a href="https://github.com/40623224/40623224.github.io">40623224<span>個人倉儲</span></a></p>
-<p><strong>Q&amp;A:</strong></p>
-<p><strong>Q:</strong>什麼是Onshape?</p>
-<p><strong>A:</strong>Onshape是一個現代化的<span>CAD</span>系統，可以消除設計僵局，幫助工程師做最好的工作。<span>Onshape</span>將高級建模工具和設計數據管理結合在一個安全的雲工作空間中，該工作空間已迅速成為全球數千家公司的主要<span>CAD</span>系統。</p>
-<p><strong>Q:</strong>為什麼選擇<span>Onshape?</span></p>
-<p><strong>A:</strong>因為<span>Onshape</span>可以主動幫助我們並保護我們的知識產權，而它有七種不同的安全措施<span>(</span>即密碼保護訪問、雙因素認證、數據庫備份程序、專用服務器、通信安全、加密、第三方測試<span>)</span>。</p>
-<p><strong>影片:</strong></p>
-<p><iframe width="560" height="314" src="//www.youtube.com/embed/ax2ZuPm3YXc" allowfullscreen="allowfullscreen"></iframe></p>
-<p><strong>心得:</strong>第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。</p>
-<h2>Week2</h2>
-<h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲</yt-formatted-string></h5>
-<p>老師旗下的<a href="https://mdecadp2018.github.io/site-40623224/content/index.html">40623224每週學習作業倉儲</a></p>
-<p><strong>Step1:</strong>依照Week1先去mde.tw領取個人倉儲</p>
-<p><img src="/images/1538671088302.jpg" width="500" height="337" alt=""></p>
-<p><img src="/images/1538671119957.jpg" width="500" height="227" alt=""></p>
-<p><strong>Step2:</strong><span>利用 Settings 將內定 branch 設為 gh-pages</span></p>
-<p><img src="/images/1538671627881.jpg" width="500" height="175" alt=""></p>
-<p><strong>Step3:</strong><span><strong>&nbsp;</strong>git clone 作業倉儲至近端後, 著手將練習 Onshape 的各項過程資料存入 CMSimfly, Reveal.js 與 Pelican Blog 中</span></p>
-<p><span>*若要在圖片上加上有顏色的框,對LEO開啟Y:/tmp/40623224/cmsimfly.leo調整顏色粗細大小</span></p>
-<p><span><img src="/images/1538672017142.jpg" width="500" height="391" alt=""></span></p>
-<p><span>完成圖:</span></p>
-<p><span><img src="/images/1538672311695.gif" width="500" height="351" alt=""></span></p>
-<p><strong>影片:</strong></p>
-<p><iframe width="500" height="280" src="//www.youtube.com/embed/q_1Ht6CLPWA" allowfullscreen="allowfullscreen"></iframe></p>
-<p><strong>心得:</strong>第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。</p>
-<h2>Week3</h2>
-<p>2018/09/24中秋節放假~~</p>
-<p><span>石頭日式無煙燒肉</span></p>
-<p>散播歡樂散播愛</p>
-<p><iframe width="500" height="280" src="//www.youtube.com/embed/158Ir6Mni60" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>Week4</h2>
-<p><strong>Step1:</strong>建立 Onshape 帳號 - 請利用學校 gmail 建立教育版帳號</p>
-<p><strong>Step2:</strong>3D 環境導航 (navigate)</p>
-<p><strong>Step3:</strong>說明基於草圖 (sketch-based)的建模</p>
-<p><strong>Step4:</strong>介紹 4 個基本特徵 (features)（擠出(extrude)，旋轉(revolve)，掃描(sweep)，和斷面混成(loaf)）</p>
-<p><strong>Step5:</strong>從 2D 過渡到 3D</p>
-<p><strong>Step6:</strong>介紹基本草圖</p>
-<p><strong>Step7:</strong>附錄A：鍵盤快捷鍵 (keyboard shotcuts)，滑鼠和觸控平面手勢 (touchpad gestures)，檢視工具</p>
-<p><strong>Step8:</strong>附錄B：導航說明檔，建立帳號，訂閱計劃 (subscription plans)</p>
-<p><strong>Step9:</strong>圓柱薄殼 (cylinder shell) - 繪圖界面與可視化/檢視的介紹</p>
-<p><strong>Step10:</strong>針對既有草圖的模型 - 接續建立特徵</p>
-<p><strong>Step11:</strong>現存公用模型 (public models) - 如何搜尋並復製到工作區 (workspace)</p>
-<p></p>
-<p><strong>影片:</strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/iuG8icpePUc" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/wiBBlz0B_mM" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/DI3Nb21IKZs" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/HknsBNdyPIg" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/W5IC44XT-Ek" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><iframe width="500" height="280" src="//www.youtube.com/embed/7fJP3p3n7IM" allowfullscreen="allowfullscreen"></iframe></p>
-<h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明:</yt-formatted-string></h5>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/nMU9bYx0vPc" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">Onshape week1 課程使用說明:</yt-formatted-string></h5>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/UdYcuRKS6o4" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong>心得:</strong><span>第四週開始學習</span><span>Onshape</span><span>，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。</span></p>
-<p></p>
-<h2>Week5</h2>
-<p>*設計意圖指在設計進行前, 必須完成之專案目的與需求確認<br>*幾何外型越複雜, 越需要在零件設計之前做好設計意圖的確認</p>
-<p><strong>學習要點:</strong></p>
-<p><strong>1.</strong>簡介"設計意圖" (design intent)</p>
-<p><strong>2.</strong>設定尺寸 (dimensions) 與約束 (constraints)</p>
-<p><strong>3.</strong>自動推理 (automatic inferencing)</p>
-<p><strong>4.</strong>繪製精確的零件 (accurate part)</p>
-<p><strong>5.</strong>草圖繪製練習</p>
-<p><strong>6.</strong>運用與建立平面 (planes)</p>
-<p><strong>7.</strong>建立圓角 (fillets) 與倒角 (chamfers)</p>
-<p><strong>8.</strong>使用多個 (multiple) 草圖區域 (sketch regions)</p>
-<p><strong>9.</strong>基本零件</p>
-<p><strong>10.</strong>繪製時鐘模型 - 用於設計意圖教學</p>
-<p><strong>11.</strong>各種簡單的幾何形狀 (geometric shapes)</p>
-<p><strong>影片:</strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/zfDkWQMvFSU" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/_tRrUEvcGuo" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/Uale03G8mgM" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/FzpaCGQ4BVc" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/KVAkH555LrY" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<p><strong>心得:</strong><span>第五週進入到</span><span>Onshape第二週</span><span>，這一週開始必須要了解到自己的設計意圖是什麼，還有設定尺寸以及如何去約束他，並且要正確和精準。</span></p>
-<h2>Week6</h2>
-<p><strong>影片:</strong></p>
-<h5><strong>更新 lab-booking-cdlab 倉儲內容為例, 說明管理內容流程</strong></h5>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/6ULAecjorvU" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<h5 class="title style-scope ytd-video-primary-info-renderer"><strong>如何升級最新的 CMSimfly 倉儲中的 flaskapp.py</strong></h5>
-<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/mH_tW3erBqs" allowfullscreen="allowfullscreen"></iframe></strong></p>
-<h2>Week7.</h2><p><strong>心得:</strong></p><h2>Week8</h2>
-<h1>Python 手冊</h1>
-<p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
-<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
-<h1>OnShape 手冊</h1>
-<p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
-<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p>
-<h1>Fusion 360</h1>
-<p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
+<h1>簡介</h1><p>2018 Fall&nbsp; 40623224&nbsp; 電腦輔助設計實習課程分組網站</p><p>mdecadp2018 /&nbsp;<a href="https://github.com/mdecadp2018/site-40623224">site-40623224</a></p><p>github /&nbsp;<a href="https://github.com/40623224/40623224.github.io">40623224.github.io</a></p><p><a href="https://mdecadp2018.github.io/site-40623224/reveal/index.html#/">投影片</a></p><p></p><p></p><h2>CMSimfly 網站</h2><p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p><h2>reveal 投影片</h2><p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p><h2>pelican 網誌</h2><p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p><p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p><p>更改 @edit publishconf.py 中的 SITEURL</p><p></p><h1>期中作業操作</h1><p>以下的解說圖片, 是以 ShareX 中的 Task settings 下的 Upload 下的 File name 設定, 將 Name pattern for window capture, 從&nbsp;%pn_%y-%mo-%d_%h-%mi-%s 改為&nbsp;p37_%h-%mi-%s, 表示此一系列的取圖檔, 將會以 p37 加上取圖時間做為檔名, 以資辨識.</p><p>之後, 再利用 CMSimfly 中的 Image Upload 功能, 一次上傳多個圖檔, 放入 images 目錄中引用.</p><p>當使用者開啟 <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit">Zoomit</a> 與 <a href="https://getsharex.com/">ShareX</a> 之後, 可以交互利用 Ctrl + 1 以 Zoomit 的功能放大螢幕, 選擇畫面, 以畫筆標示重點, 然後再結合 ShareX 的 Ctrl + PrintScreen 選擇所要取圖的範圍後, 即可逐一在電腦操作過程中, 取得所需要的畫面圖檔, 然後再放入 CMSimfly 內容管理頁面中使用.</p><p>本課程使用以 Python 3.7.0 為主的可攜程式系統, 在 p37 目錄中有 data 目錄, 以及兩個 batch 批次檔案.</p><p>批次檔案是將 Windows 在命令列中可以執行的指令, 寫在副檔名為 bat 的純文字檔案中, 使用者可以直接點擊兩次執行批次檔案中的指令.</p><p>start.bat 用於啟動可攜系統, 而 stop.bat 則用於終止可攜系統, 若終止後在操作系統中無 p37 目錄中的任何應用程式開啟, 則使用者可以安全以 eject 退出帶有 p37 目錄的隨身碟.</p><p>位於 D: 槽的 USB p37 目錄如下圖:</p><p><img src="/images/p37_09-17-04.png" width="300" height="171" alt=""></p><p>由於在超文件中所引用的圖片檔案, 在無明顯外框標示界定下, 可能會與頁面說明產生混淆, 因此利用 Leo Editor 開啟 cmsimfly.leo, 直接在 Flask 程式中的&nbsp;syntaxhighlight 函式加入設定 img border 的 style css 碼, 可以設定動態內容管理系統, 而修改&nbsp;syntaxhighlight2, 則可修改靜態的頁面 css 設定. 所加入的 css 設定如下:</p><pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">&lt;style&gt;img {    border: 3px solid red;}&lt;/style&gt;</pre><p>start.bat 批次檔案, 以 SciTE 編輯器開啟.</p><p><img src="/images/p37_09-18-29.png" width="300" height="391" alt=""></p><p>stop.bat 批次檔案, 以 SciTE 編輯器開啟.</p><p><img src="/images/p37_09-19-57.png" width="305" height="268" alt=""></p><p>start.bat 批次檔案中的 set 指令區, 主要設定系統的環境變數, Disk&nbsp; 為自訂變數名稱.</p><p><img src="/images/p37_09-20-41.png" width="300" height="209" alt=""></p><p>登入 github 後畫面, 可以切換到 profile 或 repositories.</p><p><img src="/images/p37_09-23-25.png" width="322" height="421" alt=""></p><p>登入 github 後, 可以利用 <a href="https://github.com">https://github.com</a>&nbsp;連結到有權限擷取的倉儲列表.</p><p><img src="/images/p37_09-24-02.png" width="447" height="367" alt=""></p><p>進入先前所認領的期中作業倉儲.</p><p><img src="/images/p37_09-24-45.png" width="501" height="204" alt=""></p><p>將遠端的作業倉儲內容, git clone 一份到近端, 以便在工作目錄中進行改版.</p><p><img src="/images/p37_09-26-46.png" width="652" height="304" alt=""></p><p>將遠端倉儲 git clone 到近端後, 利用 cd 更換目錄, 進入作業倉儲.</p><p><img src="/images/p37_09-27-53.png" width="705" height="478" alt=""></p><p>將遠端的作業倉儲 git clone 到近端後, 進入該倉儲目錄後, 可以利用 python wsgi.py 啟動動態內容管理系統.</p><p><img src="/images/p37_09-28-26.png" width="735" height="662" alt=""></p><p>python wsgi.py 指令表示要利用 Python 解譯器執行作業目錄中的 wsgi.py 程式, 啟動後, 可以利用瀏覽器連結近端的 CMSimfly 內容管理系統.</p><p><img src="/images/p37_09-30-03.png" width="600" height="394" alt=""></p><p><img src="/images/p37_09-30-25.png" width="600" height="219" alt=""></p><p>由於近端利用 python wsgi.py 啟動時, 所使用的 SSL 數位簽章為 self-signed, 因此需要進一步確認後, 才能完成連結. 但是 self-signed 的數位簽章, 並未經過第三方公證, 因此被瀏覽器認定此一連結為 unsafe, 不過, 因此此一 self-signed 所建立的 https 連結, 旨在瀏覽器與伺服器間傳遞資料時, 能夠透過此一數位簽章編碼, 以避免在兩端間以明碼傳遞資料, 尤其當伺服器安裝在區域網路或廣域網路時, 直接使用 http 協定傳遞使用者的帳號與密碼, 是沒有必要且容易被中途攔截.</p><p><img src="/images/p37_09-30-56.png" width="600" height="313" alt=""></p><p>完成連結後將可在近端以內建的 admin 密碼登入, 開始維護網站內容.</p><p><img src="/images/p37_09-31-24.png" width="785" height="570" alt=""></p><p>利用滑鼠點擊 login 登入.</p><p><img src="/images/p37_09-31-57.png" width="600" height="522" alt=""></p><p>輸入 admin 後登入.</p><p><img src="/images/p37_09-32-19.png" width="671" height="477" alt=""></p><p>登入後將內定轉到 edit all 的畫面, 也就是編輯整個位於 config 目錄中的 content.htm 檔案.</p><p><img src="/images/p37_09-32-40.png" width="600" height="335" alt=""></p><p>需要編輯其中任何一頁時, 先連結到該頁面後, 按下 Edit 後可以在 tinymce4 編輯器中編輯內容.</p><p><img src="/images/p37_09-33-21.png" width="528" height="498" alt=""></p><p><img src="/images/p37_09-33-50.png" width="741" height="531" alt=""></p><p><img src="/images/p37_09-34-10.png" width="600" height="284" alt=""></p><p>由於 CMSimfly 動態系統中, 以 h1, h2, h3 等三個超文件標註作為各頁面標題, 且循序排列各 h1, h2 與 h3 標題內容, 因此使用者可以在上一個頁面 (可能是 h1, h2 或 h3 頁面) 超文件最後面加入標題, 或者在下一頁標題的最前方加入頁面標題, 下列畫面選擇在組員操作影片上方新增一個 h1 標題頁面, 標題為"期中作業操作".</p><p><img src="/images/p37_09-35-01.png" width="418" height="445" alt=""></p><p><img src="/images/p37_09-35-51.png" width="600" height="353" alt=""></p><p></p><h1>組員操作影片</h1><p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p><h2>Week1</h2><p><strong>step1:</strong>建立一個新的倉庫,名字為自己的學號.github.io,權限設為公開</p><p><img src="/images/1538667461839.jpg" width="500" height="230" alt=""></p><p><strong>step2:</strong>克隆新的倉庫的網址,資料夾名字取為40623224,按Enter</p><p>git clone https://github.com/40623224/40623224.github.io 40623224</p><p><img src="/images/1538668182882.jpg" width="500" height="77" alt=""></p><p><strong>step3:</strong>除了.git和README.md不能複製,其餘都複製在自己的資料夾</p><p><img src="/images/1538668434424.jpg" width="500" height="340" alt=""></p><p><strong>step4:</strong>先看自己的狀態然後增加,再提交,推送的名稱為initial add</p><p><img src="/images/1538668882174.jpg" width="500" height="58" alt=""></p><p><img src="/images/1538668896157.jpg" width="500" height="55" alt=""></p><p><img src="/images/1538668954942.jpg" width="500" height="59" alt=""></p><p><strong>step5:</strong>設定自己提交的email和名字</p><p><img src="/images/1538669257821.jpg" width="500" height="236" alt=""></p><p><strong>step6:</strong>開啟進端<a>https://localhost:8443進去修改40623224</a></p><p><img src="/images/1538669755721.jpg" width="500" height="53" alt=""></p><p><img src="/images/1538669520622.jpg" width="500" height="51" alt=""></p><p><img src="/images/1538669793949.jpg" width="500" height="100" alt=""></p><p><strong>step7:</strong>在重複step4的步驟,在git push上傳</p><p><img src="/images/1538670030580.jpg" width="500" height="52" alt=""></p><p>完成gif圖:</p><p><img src="/images/1538670108214.gif" width="500" height="348" alt=""></p><p><a href="https://github.com/40623224/40623224.github.io">40623224<span>個人倉儲</span></a></p><p><strong>Q&amp;A:</strong></p><p><strong>Q:</strong>什麼是Onshape?</p><p><strong>A:</strong>Onshape是一個現代化的<span>CAD</span>系統，可以消除設計僵局，幫助工程師做最好的工作。<span>Onshape</span>將高級建模工具和設計數據管理結合在一個安全的雲工作空間中，該工作空間已迅速成為全球數千家公司的主要<span>CAD</span>系統。</p><p><strong>Q:</strong>為什麼選擇<span>Onshape?</span></p><p><strong>A:</strong>因為<span>Onshape</span>可以主動幫助我們並保護我們的知識產權，而它有七種不同的安全措施<span>(</span>即密碼保護訪問、雙因素認證、數據庫備份程序、專用服務器、通信安全、加密、第三方測試<span>)</span>。</p><p><strong>影片:</strong></p><p><iframe width="560" height="314" src="//www.youtube.com/embed/ax2ZuPm3YXc" allowfullscreen="allowfullscreen"></iframe></p><p><strong>心得:</strong>第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。</p><h2>Week2</h2><h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲</yt-formatted-string></h5><p>老師旗下的<a href="https://mdecadp2018.github.io/site-40623224/content/index.html">40623224每週學習作業倉儲</a></p><p><strong>Step1:</strong>依照Week1先去mde.tw領取個人倉儲</p><p><img src="/images/1538671088302.jpg" width="500" height="337" alt=""></p><p><img src="/images/1538671119957.jpg" width="500" height="227" alt=""></p><p><strong>Step2:</strong><span>利用 Settings 將內定 branch 設為 gh-pages</span></p><p><img src="/images/1538671627881.jpg" width="500" height="175" alt=""></p><p><strong>Step3:</strong><span><strong>&nbsp;</strong>git clone 作業倉儲至近端後, 著手將練習 Onshape 的各項過程資料存入 CMSimfly, Reveal.js 與 Pelican Blog 中</span></p><p><span>*若要在圖片上加上有顏色的框,對LEO開啟Y:/tmp/40623224/cmsimfly.leo調整顏色粗細大小</span></p><p><span><img src="/images/1538672017142.jpg" width="500" height="391" alt=""></span></p><p><span>完成圖:</span></p><p><span><img src="/images/1538672311695.gif" width="500" height="351" alt=""></span></p><p><strong>影片:</strong></p><p><iframe width="500" height="280" src="//www.youtube.com/embed/q_1Ht6CLPWA" allowfullscreen="allowfullscreen"></iframe></p><p><strong>心得:</strong>第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。</p><h2>Week3</h2><p>2018/09/24中秋節放假~~</p><p><span>石頭日式無煙燒肉</span></p><p>散播歡樂散播愛</p><p><iframe width="500" height="280" src="//www.youtube.com/embed/158Ir6Mni60" allowfullscreen="allowfullscreen"></iframe></p><h2>Week4</h2><p><strong>Step1:</strong>建立 Onshape 帳號 - 請利用學校 gmail 建立教育版帳號</p><p><strong>Step2:</strong>3D 環境導航 (navigate)</p><p><strong>Step3:</strong>說明基於草圖 (sketch-based)的建模</p><p><strong>Step4:</strong>介紹 4 個基本特徵 (features)（擠出(extrude)，旋轉(revolve)，掃描(sweep)，和斷面混成(loaf)）</p><p><strong>Step5:</strong>從 2D 過渡到 3D</p><p><strong>Step6:</strong>介紹基本草圖</p><p><strong>Step7:</strong>附錄A：鍵盤快捷鍵 (keyboard shotcuts)，滑鼠和觸控平面手勢 (touchpad gestures)，檢視工具</p><p><strong>Step8:</strong>附錄B：導航說明檔，建立帳號，訂閱計劃 (subscription plans)</p><p><strong>Step9:</strong>圓柱薄殼 (cylinder shell) - 繪圖界面與可視化/檢視的介紹</p><p><strong>Step10:</strong>針對既有草圖的模型 - 接續建立特徵</p><p><strong>Step11:</strong>現存公用模型 (public models) - 如何搜尋並復製到工作區 (workspace)</p><p></p><p><strong>影片:</strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/iuG8icpePUc" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/wiBBlz0B_mM" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/DI3Nb21IKZs" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/HknsBNdyPIg" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/W5IC44XT-Ek" allowfullscreen="allowfullscreen"></iframe></strong></p><p><iframe width="500" height="280" src="//www.youtube.com/embed/7fJP3p3n7IM" allowfullscreen="allowfullscreen"></iframe></p><h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明:</yt-formatted-string></h5><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/nMU9bYx0vPc" allowfullscreen="allowfullscreen"></iframe></strong></p><h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">Onshape week1 課程使用說明:</yt-formatted-string></h5><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/UdYcuRKS6o4" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong>心得:</strong><span>第四週開始學習</span><span>Onshape</span><span>，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。</span></p><p></p><h2>Week5</h2><p>*設計意圖指在設計進行前, 必須完成之專案目的與需求確認<br>*幾何外型越複雜, 越需要在零件設計之前做好設計意圖的確認</p><p><strong>學習要點:</strong></p><p><strong>1.</strong>簡介"設計意圖" (design intent)</p><p><strong>2.</strong>設定尺寸 (dimensions) 與約束 (constraints)</p><p><strong>3.</strong>自動推理 (automatic inferencing)</p><p><strong>4.</strong>繪製精確的零件 (accurate part)</p><p><strong>5.</strong>草圖繪製練習</p><p><strong>6.</strong>運用與建立平面 (planes)</p><p><strong>7.</strong>建立圓角 (fillets) 與倒角 (chamfers)</p><p><strong>8.</strong>使用多個 (multiple) 草圖區域 (sketch regions)</p><p><strong>9.</strong>基本零件</p><p><strong>10.</strong>繪製時鐘模型 - 用於設計意圖教學</p><p><strong>11.</strong>各種簡單的幾何形狀 (geometric shapes)</p><p><strong>影片:</strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/zfDkWQMvFSU" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/_tRrUEvcGuo" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/Uale03G8mgM" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/FzpaCGQ4BVc" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/KVAkH555LrY" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong>心得:</strong><span>第五週進入到</span><span>Onshape第二週</span><span>，這一週開始必須要了解到自己的設計意圖是什麼，還有設定尺寸以及如何去約束他，並且要正確和精準。</span></p><h2>Week6</h2><p><strong>影片:</strong></p><h5><strong>更新 lab-booking-cdlab 倉儲內容為例, 說明管理內容流程</strong></h5><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/6ULAecjorvU" allowfullscreen="allowfullscreen"></iframe></strong></p><h5 class="title style-scope ytd-video-primary-info-renderer"><strong>如何升級最新的 CMSimfly 倉儲中的 flaskapp.py</strong></h5><p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/mH_tW3erBqs" allowfullscreen="allowfullscreen"></iframe></strong></p><p><strong></strong></p><p><strong>心得:</strong></p><p>瞭解老師給予的Onshape教材中的一些專屬名詞，把不懂的單字記錄下來，如果遇到這個單字時能夠迅速找到它的中文解釋，以及如何更新最新<span>的CMSimfly</span><span>，不然更新自己網站的內容時，因為某些原因導致&nbsp;&nbsp;<a>https://localhost:8443</a>&nbsp;一直出現錯誤而無法使用</span><span>，還有討論到有關人事時地物等關鍵內容的架構安排。</span></p><h2>Week7</h2><p><strong>心得:</strong></p><p>由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初<span>發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM&nbsp;。</span></p><h2>Week8</h2><h1>Python 手冊</h1><p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p><p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h1>OnShape 手冊</h1><p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p><p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p><h1>Fusion 360</h1><p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
