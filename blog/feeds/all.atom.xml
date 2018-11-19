@@ -5,20 +5,36 @@
 
 &lt;p&gt;期中考週~&lt;/p&gt;
 &lt;p&gt;六人分組&lt;/p&gt;
-&lt;p&gt;期中自評:83&lt;/p&gt;</content><category term="W9"></category></entry><entry><title>Week-8</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W8.html" rel="alternate"></link><published>2018-10-29T11:00:00+08:00</published><updated>2018-10-29T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-29:/site-40623224/blog/2018-Fall-Project-Blog-W8.html</id><summary type="html">&lt;p&gt;W8&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;W8&lt;/p&gt;
+&lt;p&gt;期中自評:83&lt;/p&gt;</content><category term="W9"></category></entry><entry><title>Week-8</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W8.html" rel="alternate"></link><published>2018-10-29T11:00:00+08:00</published><updated>2018-10-29T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-29:/site-40623224/blog/2018-Fall-Project-Blog-W8.html</id><summary type="html">&lt;p&gt;Onshape 與電腦輔助設計&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Onshape 與電腦輔助設計&lt;/p&gt;
 
 
+&lt;h2&gt;學習要點:&lt;/h2&gt;
+&lt;p&gt;1.An introduction to engineering drawings( 工程圖紙簡介 )&lt;/p&gt;
+&lt;p&gt;2.Creating drawing views, dimensioning, tolerancing, notes(創建圖紙視圖，尺寸標註，公差，筆記)&lt;/p&gt;
+&lt;p&gt;3.Using formats/templates(使用格式/模板)&lt;/p&gt;
+&lt;p&gt;4.Introducing GTOL/GD&amp;amp;T(介紹GTOL / GD＆T)&lt;/p&gt;
 &lt;h2&gt;心得:&lt;/h2&gt;
-&lt;p&gt;這一週課程是讓我們題交推送之前尚未完成的Week，並知道自己學到哪裡，然而期中考過後準備分組課程，一組以六個人為單位，這八週，從學習github到繪製Onshape，再到可以熟練繪製Onshape，然而了解一些畫法，找出因應方法，接下來就是開始準備期中過後的課程了~&lt;/p&gt;</content><category term="W8"></category></entry><entry><title>Week-7</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W7.html" rel="alternate"></link><published>2018-10-22T11:00:00+08:00</published><updated>2018-10-22T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623224/blog/2018-Fall-Project-Blog-W7.html</id><summary type="html">&lt;p&gt;W7&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;W7&lt;/p&gt;
+&lt;p&gt;這一週課程是讓我們題交推送之前尚未完成的Week，並知道自己學到哪裡，然而期中考過後準備分組課程，一組以六個人為單位，這八週，從學習github到繪製Onshape，再到可以熟練繪製Onshape，然而了解一些畫法，找出因應方法，接下來就是開始準備期中過後的課程了~&lt;/p&gt;</content><category term="W8"></category></entry><entry><title>Week-7</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W7.html" rel="alternate"></link><published>2018-10-22T11:00:00+08:00</published><updated>2018-10-22T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-22:/site-40623224/blog/2018-Fall-Project-Blog-W7.html</id><summary type="html">&lt;p&gt;上課前在登陸 Github 時，發現故障，無法使用，找出方法解決並探討問題&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;上課前在登陸 Github 時，發現故障，無法使用，找出方法解決並探討問題&lt;/p&gt;
 
 
+&lt;h2&gt;學習要點:&lt;/h2&gt;
+&lt;p&gt;1.Lesson on degrees of freedom ( 自由度 )&lt;/p&gt;
+&lt;p&gt;2.An introduction to assembly Mates ( 介紹配合組件 )&lt;/p&gt;
+&lt;p&gt;3.Mate Connectors ( 配合連接器 )&lt;/p&gt;
+&lt;p&gt;4.Manipulating part position with the triad ( 用三合一操縱零件位置 )&lt;/p&gt;
+&lt;p&gt;5.Explaining Mates and Relations ( 解釋配合和關係 )&lt;/p&gt;
+&lt;p&gt;6.Animating Mates ( 動畫配合 )&lt;/p&gt;
+&lt;p&gt;7.An introduction to Linked Documents ( 介紹相關聯的文件 )&lt;/p&gt;
+&lt;p&gt;8.Applying limits to a Mate ( 對配合施加限制 )&lt;/p&gt;
 &lt;h2&gt;心得:&lt;/h2&gt;
-&lt;p&gt;由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM 。&lt;/p&gt;</content><category term="W7"></category></entry><entry><title>Week-6</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W6.html" rel="alternate"></link><published>2018-10-15T11:00:00+08:00</published><updated>2018-10-15T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-15:/site-40623224/blog/2018-Fall-Project-Blog-W6.html</id><summary type="html">&lt;p&gt;W6&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;W6&lt;/p&gt;
+&lt;p&gt;由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM 。&lt;/p&gt;</content><category term="W7"></category></entry><entry><title>Week-6</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W6.html" rel="alternate"></link><published>2018-10-15T11:00:00+08:00</published><updated>2018-10-15T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-15:/site-40623224/blog/2018-Fall-Project-Blog-W6.html</id><summary type="html">&lt;p&gt;將倉儲中的 flaskapp.py 更新至最新版本&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;將倉儲中的 flaskapp.py 更新至最新版本&lt;/p&gt;
 
 
+&lt;h2&gt;將倉儲中的 flaskapp.py 更新至最新版本&lt;/h2&gt;
+&lt;p&gt;搜尋 github cmsimfly&lt;/p&gt;
 &lt;h2&gt;心得:&lt;/h2&gt;
 &lt;p&gt;瞭解老師給予的Onshape教材中的一些專屬名詞，把不懂的單字記錄下來，如果遇到這個單字時能夠迅速找到它的中文解釋，以及如何更新最新的CMSimfly，不然更新自己網站的內容時，因為某些原因導致  https://localhost:8443 一直出現錯誤而無法使用，還有討論到有關人事時地物等關鍵內容的架構安排。&lt;/p&gt;</content><category term="W6"></category></entry><entry><title>Week-5</title><link href="https://mdecadp2018.github.io/site-40623224/blog/2018-Fall-Project-Blog-W5.html" rel="alternate"></link><published>2018-10-08T11:00:00+08:00</published><updated>2018-10-08T11:00:00+08:00</updated><author><name>40623224</name></author><id>tag:mdecadp2018.github.io,2018-10-08:/site-40623224/blog/2018-Fall-Project-Blog-W5.html</id><summary type="html">&lt;p&gt;Onshape week 2 課程使用說明&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;Onshape week 2 課程使用說明&lt;/p&gt;
