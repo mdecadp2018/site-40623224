@@ -1,15 +1,15 @@
 # 2018fall
 
-倉儲: https://github.com/mdecadp2018/site-40623224
+Warehousing: https://github.com/mdecadp2018/site-40623224
 
-網站: https://mdecadp2018.github.io/site-40623224/content/
+Website: https://mdecadp2018.github.io/site-40623224/content/
 
-期末第五組分組網站 /https://mdecadp2018.github.io/finalproject-bg5/content/index.html
+BG5 Final Project Website /https://mdecadp2018.github.io/finalproject-bg5/content/index.html
 
-期末第五組分組倉儲 / https://github.com/mdecadp2018/finalproject-bg5/
+BG5 Final Project Warehousing / https://github.com/mdecadp2018/finalproject-bg5/
 
-簡報: https://mdecadp2018.github.io/site-40623224/reveal/
+Reveal: https://mdecadp2018.github.io/site-40623224/reveal/
 
-網誌: https://mdecadp2018.github.io/site-40623224/blog
+Blog: https://mdecadp2018.github.io/site-40623224/blog
 
 onshape : https://www.onshape.com
