@@ -1,0 +1,90 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+<style>
+img {
+    border: 2px solid blue;
+}
+</style>
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2019 Fall 40623224 Personal Website</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Introduction.html'>Introduction</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a><li><a href='Mid-term operation.html'>Mid-term operation</a><li><a href='Weekly.html'>Weekly</a><li><a href='Python Manual.html'>Python Manual</a><li><a href='OnShape Manual.html'>OnShape Manual</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul><li><a href='Weekly Progress.html'>Weekly Progress</a><ul><li><a href='Week1-9.html'>Week1-9</a><li><a href='Week10-18.html'>Week10-18</a></li></ul><li><a href='Operation Demo.html'>Operation Demo</a><ul><li><a href='如何建立可攜程式系統.html'>如何建立可攜程式系統</a><li><a href='Start.bat製作.html'>Start.bat製作</a><li><a href='Stop.bat製作.html'>Stop.bat製作</a><li><a href='Kungit 製作.html'>Kungit 製作</a><li><a href='Kungit使用教學.html'>Kungit使用教學</a><li><a href='GitExtensions 使用教學.html'>GitExtensions 使用教學</a></li></ul><li><a href='Lesson notes.html'>Lesson notes</a></li></ul></nav><section>Kungit 製作 << <a href='Kungit 製作.html'>Previous</a> <a href='GitExtensions 使用教學.html'>Next</a> >> GitExtensions 使用教學<br /><h1>Kungit使用教學</h1>
+<p><span><strong>1.</strong>在cmd輸入kungit</span></p>
+<p><span><img alt="" height="366" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4./../images/24ungit-1.jpg" width="700"></span></p>
+<hr>
+<p><span><strong>2.</strong>輸入後會在Chrome瀏覽器開啟ungit頁面，按下Load anyway會加載靜態資料 (按Don'y load就不會加載進去)(圖為BG4之資料)</span></p>
+<p><span><img alt="" height="683" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4./../images/24ungit-2.jpg" width="1000"></span></p>
+<hr>
+<p><strong>3.</strong><span>進入之後藍色所選的框為增加的資料，紅色的框為提交的Title，確認無誤以後按下Commit提交推送(圖為BG4之資料)</span></p>
+<p><strong>Title :</strong>可以輸入中、英文標題</p>
+<p><strong>Body :</strong>增加敘述標題的內容，使其協同組員知道此次版本增加為何</p>
+<p><strong>Commit :</strong><span>&nbsp;</span>不需使用cmd指令就可以直接推送以節省時間</p>
+<p><img alt="" height="653" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4./../images/24ungit-3.jpg" width="1000"></p>
+<hr>
+<p><strong>4.</strong><span><strong>&nbsp;</strong>Commit完成之後只要按版本旁邊的push就能將版本推到遠端</span></p>
+<p><img alt="" height="284" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4./../images/24ungit-4.jpg" width="800"></p>
+<hr>
+<p><strong>5.</strong><span>接著紅框處輸入帳密，再提交</span></p>
+<p><img alt="" height="295" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4./../images/24ungit-5.jpg" width="1000"></p>
+<hr>
+<p><span>完成圖如下:</span></p>
+<p><span><img alt="" height="427" src="https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4./../images/24ungit-7.jpg" width="1200"></span></p>
+<br />Kungit 製作 << <a href='Kungit 製作.html'>Previous</a> <a href='GitExtensions 使用教學.html'>Next</a> >> GitExtensions 使用教學</section></div></body></html>
