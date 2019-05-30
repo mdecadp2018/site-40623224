@@ -1,4 +1,11 @@
-<h1>Introduction</h1><p>2018 Fall&nbsp; 40623224&nbsp;<span>Computer Aided Designing Practice&nbsp;Course website</span></p><p>BG5 Final Project Website /<a href="https://mdecadp2018.github.io/finalproject-bg5/content/index.html">finalproject bg5</a></p><p>BG5 Final Project&nbsp;Warehousing /&nbsp;<a href="https://github.com/mdecadp2018/finalproject-bg5/"><span>finalproject-bg5.github.io</span></a></p><p>mdecadp2018 /&nbsp;<a href="https://github.com/mdecadp2018/site-40623224">site-40623224</a></p><p>github /&nbsp;<a href="https://github.com/40623224/40623224.github.io">40623224.github.io</a></p><p><a href="https://mdecadp2018.github.io/site-40623224/reveal/index.html#/">reveal</a></p><h2>CMSimfly 網站</h2>
+<h1>Introduction</h1>
+<p>2018 Fall&nbsp; 40623224&nbsp;<span>Computer Aided Designing Practice&nbsp;Course website</span></p>
+<p>BG5 Final Project Website /<a href="https://mdecadp2018.github.io/finalproject-bg5/content/index.html">finalproject bg5</a></p>
+<p>BG5 Final Project&nbsp;Warehousing /&nbsp;<a href="https://github.com/mdecadp2018/finalproject-bg5/"><span>finalproject-bg5.github.io</span></a></p>
+<p>mdecadp2018 /&nbsp;<a href="https://github.com/mdecadp2018/site-40623224">site-40623224</a></p>
+<p>github /&nbsp;<a href="https://github.com/40623224/40623224.github.io">40623224.github.io</a></p>
+<p><a href="https://mdecadp2018.github.io/site-40623224/reveal/index.html#/">reveal</a></p>
+<h2>CMSimfly 網站</h2>
 <p>各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.</p>
 <h2>reveal 投影片</h2>
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/reveal.leo</p>
@@ -6,35 +13,8 @@
 <p>以 <a href="http://www.leoeditor.com/">Leo Editor</a> 開啟 config/pelican.leo&nbsp;</p>
 <p>各分組必須自行更改&nbsp;@edit pelicanconf.py 中的 AUTHOR 與 SITENAME</p>
 <p>更改 @edit publishconf.py 中的 SITEURL</p>
-<h1>Lesson notes</h1>
-<p><strong>git 常用指令</strong></p>
-<p>git add .&nbsp; 新增所有改版內容</p>
-<p>git commit -m "提交訊息, 用來辨識版本" 在近端提交改版內容</p>
-<p>git push&nbsp; 將近端改版內容推送到遠端</p>
-<p>git pull&nbsp; 拉下遠端新版本內容, 在 fossil scm 使用 fossil update</p>
-<p>git log&nbsp; 查驗 git 提交推送紀錄</p>
-<p>git status&nbsp; 查驗狀態</p>
-<p>git 新增提交推送的身分綁定</p>
-<p>以 40623224@gm.nfu.edu.tw 註冊帳號為 40623224 為例:</p>
-<p>git config --global user.name "40623224"</p>
-<p>git config --global user.email "40623224@gm.nfu.edu.tw"</p>
-<p>若網路直接連線過慢, 可以透過 proxy 執行 git</p>
-<p>git config --global http.proxy http://proxy.kmol.info:3128</p>
-<p>以上的 git config 會將設定存入 Y:/home/.gitconfig 檔案中</p>
-<p>刪除近端與遠端的 Git 分支.</p>
-<p>To delete a local branch</p>
-<p>git branch -D the_local_branch</p>
-<p>To remove a remote branch</p>
-<p>git push origin :the_remote_branch</p>
-<p>or</p>
-<p>git push origin --delete the_remote_branch</p>
-<p><strong>把Onshape</strong><span><strong>吃下去，甚至學習做得更好吃</strong>_______柯柏</span></p>
-<p><img src="/images/6.jpg" width="500" height="375" alt=""></p>
 <p></p>
-<p></p>
-<p></p>
-<p></p>
-<h1>Mid-term operation</h1>
+<h2>Mid-term operation</h2>
 <p>以下的解說圖片, 是以 ShareX 中的 Task settings 下的 Upload 下的 File name 設定, 將 Name pattern for window capture, 從&nbsp;%pn_%y-%mo-%d_%h-%mi-%s 改為&nbsp;p37_%h-%mi-%s, 表示此一系列的取圖檔, 將會以 p37 加上取圖時間做為檔名, 以資辨識.</p>
 <p>之後, 再利用 CMSimfly 中的 Image Upload 功能, 一次上傳多個圖檔, 放入 images 目錄中引用.</p>
 <p>當使用者開啟 <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit">Zoomit</a> 與 <a href="https://getsharex.com/">ShareX</a> 之後, 可以交互利用 Ctrl + 1 以 Zoomit 的功能放大螢幕, 選擇畫面, 以畫筆標示重點, 然後再結合 ShareX 的 Ctrl + PrintScreen 選擇所要取圖的範圍後, 即可逐一在電腦操作過程中, 取得所需要的畫面圖檔, 然後再放入 CMSimfly 內容管理頁面中使用.</p>
@@ -87,8 +67,10 @@ img {
 <p>由於 CMSimfly 動態系統中, 以 h1, h2, h3 等三個超文件標註作為各頁面標題, 且循序排列各 h1, h2 與 h3 標題內容, 因此使用者可以在上一個頁面 (可能是 h1, h2 或 h3 頁面) 超文件最後面加入標題, 或者在下一頁標題的最前方加入頁面標題, 下列畫面選擇在組員操作影片上方新增一個 h1 標題頁面, 標題為"期中作業操作".</p>
 <p><img src="/images/p37_09-35-01.png" width="418" height="445" alt=""></p>
 <p><img src="/images/p37_09-35-51.png" width="600" height="353" alt=""></p>
-<p></p><h1>Weekly Progress</h1>
-<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p><h2>Week1</h2>
+<p></p>
+<h2>Weekly</h2>
+<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
+<p><strong>Week1</strong></p>
 <p><strong>step1:</strong>建立一個新的倉庫,名字為自己的學號.github.io,權限設為公開</p>
 <p><img src="/images/1538667461839.jpg" width="500" height="230" alt=""></p>
 <p><strong>step2:</strong>克隆新的倉庫的網址,資料夾名字取為40623224,按Enter</p>
@@ -119,7 +101,7 @@ img {
 <p><strong>影片:</strong></p>
 <p><iframe width="560" height="314" src="//www.youtube.com/embed/ax2ZuPm3YXc" allowfullscreen="allowfullscreen"></iframe></p>
 <p><strong>心得:</strong>第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。</p>
-<h2>Week2</h2>
+<p><strong>Week2</strong></p>
 <h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲</yt-formatted-string></h5>
 <p>老師旗下的<a href="https://mdecadp2018.github.io/site-40623224/content/index.html">40623224每週學習作業倉儲</a></p>
 <p><strong>Step1:</strong>依照Week1先去mde.tw領取個人倉儲</p>
@@ -135,12 +117,12 @@ img {
 <p><strong>影片:</strong></p>
 <p><iframe width="500" height="280" src="//www.youtube.com/embed/q_1Ht6CLPWA" allowfullscreen="allowfullscreen"></iframe></p>
 <p><strong>心得:</strong>第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。</p>
-<h2>Week3</h2>
+<p><strong>Week3</strong></p>
 <p>2018/09/24中秋節放假~~</p>
 <p><span>石頭日式無煙燒肉</span></p>
 <p>散播歡樂散播愛</p>
 <p><iframe width="500" height="280" src="//www.youtube.com/embed/158Ir6Mni60" allowfullscreen="allowfullscreen"></iframe></p>
-<h2>Week4</h2>
+<p><strong>Week4</strong></p>
 <h4>開始學習 Onshape</h4>
 <p>Onshape 是一套純雲端 MCAD (Mechanical Computer Aided Design) 套件, 可以利用電腦中的瀏覽器, 手機或平板中的 App, 就可以執行 2D/3D 零組件設計繪圖.</p>
 <p>有關 Onshape 如何建立零組件, 請參考:</p>
@@ -177,7 +159,7 @@ img {
 <h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">Onshape week1 課程使用說明:</yt-formatted-string></h5>
 <p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/UdYcuRKS6o4" allowfullscreen="allowfullscreen"></iframe></strong></p>
 <p><strong>心得:</strong><span>第四週開始學習</span><span>Onshape</span><span>，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。</span></p>
-<h3>Onshape Assessment1</h3>
+<p><strong>Onshape Assessment1</strong></p>
 <p><strong>Q:</strong>What&rsquo;s the quickest way to learn more about each feature in the toolbar?</p>
 <p>(什麼是了解工具欄中每個功能的最快方法)</p>
 <p><strong>A:</strong>Hover the mouse over it for a second, and a description of the feature will pop up</p>
@@ -201,7 +183,7 @@ img {
 <p><strong>Q:</strong>Can a document in Onshape have multiple Part Studios?&nbsp;</p>
 <p><span>( Onshape的文件可以有多個Part Studios嗎 )</span></p>
 <p><strong>A:</strong>Yes.</p>
-<h2>Week5</h2>
+<p><strong>Week5</strong></p>
 <p>*設計意圖指在設計進行前, 必須完成之專案目的與需求確認<br>*幾何外型越複雜, 越需要在零件設計之前做好設計意圖的確認</p>
 <p><strong>學習要點:</strong></p>
 <p><strong>1.</strong>簡介"設計意圖" (design intent)</p>
@@ -222,7 +204,7 @@ img {
 <p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/FzpaCGQ4BVc" allowfullscreen="allowfullscreen"></iframe></strong></p>
 <p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/KVAkH555LrY" allowfullscreen="allowfullscreen"></iframe></strong></p>
 <p><strong>心得:</strong><span>第五週進入到</span><span>Onshape第二週</span><span>，這一週開始必須要了解到自己的設計意圖是什麼，還有設定尺寸以及如何去約束他，並且要正確和精準。</span></p>
-<h3>Onshape Assessment2</h3>
+<p><strong>Onshape Assessment2</strong></p>
 <p><strong>Q:</strong>Describe in your own words, what is design intent?</p>
 <p>(<span>用你自己的話來描述什麼是設計意圖&nbsp;</span>)</p>
 <p><strong>A:</strong>Design Intent is the practice of developing your project&rsquo;s objectives and requirements<br>even before working on your design</p>
@@ -243,7 +225,7 @@ img {
 <p>(圓角和倒角有何相似之處？ 他們有什麼不同？)</p>
 <p><strong>A:</strong>They are the same in that both features are applied to edges only, they are different in<br>that a fillet creates a round profile, and a chamfer creates a flat profile.</p>
 <p>(它們是相同的，因為兩個特徵僅應用於邊緣，它們是不同的<br>圓角創建圓形輪廓，倒角創建平面輪廓。)</p>
-<h2>Week6</h2>
+<p><strong>Week6</strong></p>
 <p>將倉儲中的 flaskapp.py 更新至最新版本</p>
 <p>搜尋 github cmsimfly</p>
 <p><strong>影片:</strong></p>
@@ -254,7 +236,7 @@ img {
 <p><strong></strong></p>
 <p><strong>心得:</strong></p>
 <p>瞭解老師給予的Onshape教材中的一些專屬名詞，把不懂的單字記錄下來，如果遇到這個單字時能夠迅速找到它的中文解釋，以及如何更新最新<span>的CMSimfly</span><span>，不然更新自己網站的內容時，因為某些原因導致&nbsp;&nbsp;<a>https://localhost:8443</a>&nbsp;一直出現錯誤而無法使用</span><span>，還有討論到有關人事時地物等關鍵內容的架構安排。</span></p>
-<h3>Onshape Assessment3</h3>
+<p><strong>Onshape Assessment3</strong></p>
 <p><strong>Q:</strong>What are the 3 types of Boolean Operations and how do they work? Feel free to draw<br>pictures if they help.</p>
 <p>(3種類型的布爾運算有哪些，它們如何工作？ 隨意畫畫圖片，如果他們幫助。)</p>
 <p><strong>A:</strong></p>
@@ -279,7 +261,7 @@ img {
 <p>(如何在創建Clamp設計時使用鏡像工具？)</p>
 <p><strong>A:</strong>We are using it to save time by only modeling half of our pins and hinges, and then<br>mirroring them over the symmetry plane.</p>
 <p>(我們只是通過模擬我們的一半引腳和鉸鏈來節省時間，然後在對稱平面上鏡像它們。)</p>
-<h2>Week7</h2>
+<p><strong>Week7</strong></p>
 <ol>
 <li><span>Lesson on degrees of freedom (&nbsp;自由度 )</span><span></span></li>
 <li><span>An introduction to assembly Mates (&nbsp;介紹配合</span>組件 )</li>
@@ -303,7 +285,7 @@ img {
 <p><span>(關係是在 Onshape 中限制兩個配偶之間自由度的一種方式。其中一個配合控制一對部件的多少個自由度可以控制那些自由度如何相對於彼此的移動。在 Onshape 中有 4 種類型的關係：齒輪，齒條和小齒輪，螺釘和線性。這些關係依賴於已有的配合來定義將兩個部件之間發生運動的類型。)</span></p>
 <p><strong>心得:</strong></p>
 <p>由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初<span>發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM&nbsp;。</span></p>
-<h3>Onshape Assessment4</h3>
+<p>Onshape Assessment4</p>
 <p><strong>Q:</strong>What is the difference between a fixed and a moveable assembly in Onshape?&nbsp;</p>
 <p>(在Onshape中固定組件和可移動組件之間有什麼區別？)</p>
 <p><strong>A:</strong>A Fixed assembly is created using the Top-Down Design method in a Part Studio and is<br>static, while a Moveable assembly is built in an Assembly tab using Mates and can be<br>used to visualize motion.</p>
@@ -327,7 +309,7 @@ img {
 <p><strong>Q:</strong>What is a Relation? Provide 2 examples. (什麼是關係？ 提供2個例子。)</p>
 <p><strong>A:</strong>It allows degrees of freedom to be defined between two existing mates. Examples are<br>Gear, Rack &amp; Pinion, Screw, and Linear.</p>
 <p>(它允許在兩個現有配合之間定義自由度。 例子是齒輪，齒條和小齒輪，螺釘和線性。)</p>
-<h2>Week8</h2>
+<p><strong>Week8</strong></p>
 <ol>
 <li><span>An introduction to engineering drawings(&nbsp;工程圖紙簡介 )</span></li>
 <li><span>Creating drawing views, dimensioning, tolerancing, notes(創建圖紙視圖，尺寸標註，公差，筆記)</span></li>
@@ -335,7 +317,7 @@ img {
 <li><span>Introducing GTOL/GD&amp;T(介紹GTOL / GD＆T)</span></li>
 </ol>
 <p><span><strong>心得:</strong>這一週課程是讓我們題交推送之前尚未完成的Week，並知道自己學到哪裡，然而期中考過後準備分組課程，一組以六個人為單位，這八週，從學習github到繪製Onshape，再到可以熟練繪製Onshape，然而了解一些畫法，找出因應方法，接下來就是開始準備期中過後的課程了~</span></p>
-<h3>Onshape Assessment5</h3>
+<p>Onshape Assessment5</p>
 <p><strong>Q:</strong>Which four views are included in the &ldquo;Four View Layout&rdquo; in Onshape?&nbsp;</p>
 <p>(在Onshape的&ldquo;四視圖佈局&rdquo;中包含哪四個視圖？)</p>
 <p><strong>A:</strong>Front, Top, Right, Isometric<span>( 前視圖、上視圖、右側視圖、等角視圖 )</span></p>
@@ -352,13 +334,13 @@ img {
 <p>(Onshape繪圖視圖會自動更新嗎？ 為什麼或者為什麼不？)</p>
 <p><strong>A:</strong>No they do not, as this gives the designer control whether they want the drawing to<br>reflect the latest design or not. It is a form of revision control, since Onshape does not<br>have (or need) a formal PDM system.</p>
 <p><span>(設計師控制他們是否想要繪圖反映最新的設計與否。這是一種修訂控制形式，因為Onshape沒有擁有（或需要）正式的PDM系統 )</span></p>
-<h2>Week9</h2>
+<p><strong>Week9</strong></p>
 <p>期中考週~</p>
 <p>六人分組</p>
 <p><strong>期中自評</strong>:83</p>
-<h2>Week10</h2>
+<p><strong>Week10</strong></p>
 <p><strong>心得:</strong>這一週開始進行分組專題，我將會用前9週所學到的技術運用在期末專題上，與大家同心協力製作這一次專題，但是需要透過大家的努力，從現在開始我們就是一個團隊，希望各位能一起完成本次專題，而我們本次專題為3D列印機。</p>
-<h3>Onshape Assessment6</h3>
+<p><strong>Onshape Assessment6</strong></p>
 <p><strong>Q:</strong>Do people need to have an Onshape account in order to be on an Onshape Team?&nbsp;</p>
 <p>(<span>人們是否需要擁有一個Onshape帳戶才能進入Onshape團隊？</span>)</p>
 <p><strong>A:</strong>No, Onshape will automatically send them an email invitation to create an account</p>
@@ -380,9 +362,9 @@ img {
 <p>a. Comment - Allows communication between team members, while referencing<br>exact geometry and/or features.</p>
 <p>(<span lang="zh-TW">註釋 - 允許團隊成員之間進行通信，同時引用精確的幾何和/或功能。</span>)<br>b. Follow - Allows a user to follow another user within Onshape.</p>
 <p>(<span lang="zh-TW">關注 - 允許用戶在Onshape中關注其他用戶。</span>)</p>
-<h2>Week11</h2>
+<p><strong>Week11</strong></p>
 <p><strong>心得:</strong>我們在課堂上利用時間討論我們這次的專題，並利用剩餘的時間一起把網站結構架設出來，然而我們在進行網站維護與更新遇上了一些問題，但是經由討論，發現到網站維護有一些特性，並把這些錯誤揪出來並解決。</p>
-<h3>Onshape Assessment7</h3>
+<p><strong>Onshape Assessment7</strong></p>
 <p><strong>Q:</strong>What is a &ldquo;Version&rdquo; and why are they used?&nbsp;</p>
 <p>(<span lang="zh-TW" style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;">什麼是&ldquo;版本&rdquo;，為什麼使用它們？</span><span style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;">)</span></p>
 <p><strong>A</strong>:A version is a specific point in time in the history of the model that can always be<br>restored. When sharing documents, the last saved version is used. Versions capture<br>snapshots of the design process.<strong><br></strong></p>
@@ -399,9 +381,9 @@ img {
 <p>(<span lang="zh-TW">可以在Onshape中重新排序功能，如果是這樣的話怎麼樣？</span>)</p>
 <p><strong>A:</strong>Yes, simply click on a feature and drag it up/down the feature list.</p>
 <p>(<span>是的，只需單擊某個功能並在功能列表中向上/向下拖動即可。</span>)</p>
-<h2>Week12</h2>
+<p><strong>Week12</strong></p>
 <p><strong>心得:</strong>這週上課我們依然做網站以及投影片，但是我們發現到只要有兩個人以上推送倉儲時，另外一位組員若是沒有先PULL下來，就會使網站出現錯誤，爾且修改會變得非常麻煩，但是如果另一位組員沒有把錯誤解決的話拖到下一位組員時BUG會更加嚴重，所以我們在討論之後以後推送的話先一個推再給另一個做，並且在做之前先PULL下來。</p>
-<h3>Onshape Assessment8</h3>
+<p><strong>Onshape Assessment8</strong></p>
 <p><strong>Q:</strong>Why was a Mate Connector specifically created in a Part Studio for the Bluetooth<br>Speaker?</p>
 <p>(<span lang="zh-TW">為什麼在Part Studio中專門為Bluetooth創建了一個Mate Connector Speaker？</span>)</p>
 <p><strong>A:</strong>In the battery part studio, there was no locating geometry (since the batteries just float in the speaker frame compartment) so one was created using a sketch as a reference to aid in assembly.</p>
@@ -421,10 +403,10 @@ img {
 <p>(<span>可以復制用於跨多個部分交配，或僅用於交互的多個位置同一部分？</span>)</p>
 <p><strong>A:</strong>Across multiple parts.(<span>跨越多個部分。</span>)</p>
 <p><strong></strong></p>
-<h2>Week13</h2>
+<p><strong>Week13</strong></p>
 <p><strong>心得:</strong>這一週開始經由課堂上老師的各組專題重點介紹後，我與另一位組員開始討論如何畫出3D列印機，並思考如何呈現出來，在回家後試畫出框架的部分，而程式部分的展現也要考慮進去，否則畫出來的實體有可能不好去模擬。</p>
 <p></p>
-<h3>Onshape Assessment9</h3>
+<p><strong>Onshape Assessment9</strong></p>
 <p><strong>Q:</strong>What is draft, and for what manufacturing purpose is it mainly used?&nbsp;</p>
 <p>(<span lang="zh-TW">什麼是草案，主要用於什麼製造目的？</span>)</p>
 <p><strong>A:</strong>Draft is when you add a small angle (1-3&deg;) to any surface so that it may be properly<br>manufactured using Plastic Injection Molding processes. The draft angle is measured<br>between the the surface and the direction of pull.</p>
@@ -442,9 +424,9 @@ img {
 <p>(<span lang="zh-TW">解釋下面對話框的&ldquo;厚度&rdquo;條目中發生了什麼：</span>)</p>
 <p><strong>A:</strong>We are defining the thickness of the rib feature as an expression, 0.7 X &ldquo;thk&rdquo; inches,<br>where &ldquo;thk&rdquo; is a previously defined variable in our model.</p>
 <p>(<span>我們將肋骨特徵的厚度定義為表達式，0.7 X&ldquo;thk&rdquo;英寸， 其中&ldquo;thk&rdquo;是我們模型中先前定義的變量。</span>)</p>
-<h2>Week14</h2>
+<p><strong>Week14</strong></p>
 <p><strong>心得:</strong>由於17週放連假的關係，我們這一週開始補課，大家各自的進度都在預期之中，我們將畫好的零組件組裝起來，在組合期間有一些問題，像是畫出來之後組裝時因為零件干涉的問題必須需要調整變數，而微調的零件又有可能影響另外一個零件，在這過程之中去完成組合，使我們的專題更接近完成的一步。</p>
-<h3>Onshape Assessment10</h3>
+<p><strong>Onshape Assessment10</strong></p>
 <p><strong>Q:</strong>How does the &ldquo;Hole&rdquo; feature save time? (<span lang="zh-TW">"孔"功能如何節省時間？</span>)</p>
 <p><strong>A:</strong>Since most holes have standard sizes, the Hole feature has presets geometry to allow<br>the user to just select from a library of options, instead of having to sketch the profile of<br>the hole. In addition, it just references existing sketch points, thus saving time during<br>hole placement as well.</p>
 <p>(<span>由於大多數孔都具有標準尺寸，因此孔特徵具有允許的預設幾何形狀 用戶只需從選項庫中進行選擇，而不必草繪輪廓 洞。此外，它僅引用現有的草圖點，從而節省了時間 孔位置也是如此。</span>)</p>
@@ -462,9 +444,9 @@ img {
 <p><strong>Q:</strong>List 3 different capabilities that can be found in the App store.&nbsp;</p>
 <p>(<span lang="zh-TW">列出可在App Store中找到的3種不同功能。</span>)</p>
 <p><strong>A:</strong>Rendering, CAM, BOM, Assembly Explode, FEA/CFD Simulation, 3D Printing, hardware libraries, etc.</p>
-<h2>Week15</h2>
+<p><strong>Week15</strong></p>
 <p><strong>心得:</strong>這週開始使用V-rep，看了老師給的參考資料，花了很多時間在查單字上，在學習的過程當中讓我知到英文的重要性，也知道自己的英文能力非常差，但利用這些課程讓我自己提升英文能力是一個不錯的選擇，而我們已經將零件組裝完成開始使用V-rep，老師也敘述為什麼要改版 ? (1) 增加功能 (2) 修改錯誤 還有為什麼要有版本紀錄 ? (1) 看誰有做事 (2) 可以還原 (3) 查看細節的更動，也意旨我們付出多少就拿多少分數。</p>
-<h3>Onshape Assessment11</h3>
+<p><strong>Onshape Assessment11</strong></p>
 <p><strong>Q:</strong>Name 2 typical real-world applications for a &ldquo;Loft&rdquo; feature.&nbsp;</p>
 <p>(<span lang="zh-TW">為&ldquo;Loft&rdquo;功能命名2個典型的實際應用程序。</span>)</p>
 <p><strong>A:</strong>Fan blades, aircraft wings, propellor, other aerodynamic applications, etc.</p>
@@ -482,10 +464,10 @@ img {
 <p>(<span>在Onshape中&ldquo;分支和合併&rdquo;設計</span><span style="background-color: #ffffff; color: #626262;">意味著什麼？</span><span style="background-color: #ffffff; color: #626262;">)</span></p>
 <p><strong>A:</strong>Generally speaking, &ldquo;branching&rdquo; and &ldquo;merging&rdquo; are tools used in concurrent design,<br>where design variations are investigated at the same time. A &ldquo;Branch&rdquo; represents one of<br>the several design options, and a &ldquo;Merge&rdquo; is when two design options are combined,<br>where the result has the design features of both options.</p>
 <p>(<span lang="zh-TW">一般來說，&ldquo;分支&rdquo;和&ldquo;合併&rdquo;是並發設計中使用的工具， 同時調查設計變化的地方。 &ldquo;分支&rdquo;代表其中之一 幾個設計選項和&ldquo;合併&rdquo;是兩個設計選項相結合， 結果具有兩個選項的設計特徵。</span>)</p>
-<h2>Week16</h2>
+<p><strong>Week16</strong></p>
 <p><strong>心得:</strong>離學期末剩下2週的時間，我們在Vrep運用方面非常的弱，去查資料也只有鋼球運動系統和行走機器人可以參考，我發現網路上很多找的都是類似滑塊的運動以及活塞的運動，在3D列印機的教學上並沒有很多參考資料，但還是盡可能的去做完它。</p>
 <p></p>
-<h3>Onshape Assessment12</h3>
+<p><strong>Onshape Assessment12</strong></p>
 <p><strong>Q:</strong>What do the red regions in a section view in Onshape mean?&nbsp;</p>
 <p>(<span lang="zh-TW">在Onshape的剖面視圖中的紅色區域是什麼意思？</span>)</p>
 <p><strong>A:</strong>They represent an interference between two parts.</p>
@@ -503,19 +485,43 @@ img {
 <p><strong>Q:D</strong>oes the Onshape mobile app allow you to edit your design via a phone or tablet, or is it just a &ldquo;view-only&rdquo; App? What&rsquo;s another common use case?</p>
 <p>(<span lang="zh-TW">Onshape移動應用程序是否允許您通過手機或平板電腦編輯您的設計，或者是它 只是一個&ldquo;僅限查看&rdquo;的應用程序？另一個常見的用例是什麼？</span>)</p>
 <p><strong>A:</strong>It allows you to view and edit your designs, as well as comment on designs wherever<br>you are(<span lang="zh-TW">它允許您查看和編輯您的設計，以及在任何地方評論設計</span>)</p>
-<h2>Week17</h2>
+<p><strong>Week17</strong></p>
 <p>元旦放假~~</p>
 <p><img src="/images/20181023103358_48734.jpg" width="1200" height="454" alt=""></p>
-<h2>Week18</h2>
+<p><strong>Week18</strong></p>
 <p><strong></strong>期末考週</p>
 <p>專題完成~</p>
 <p>期末自評:</p>
 <p>1.各組成員在期末考週前, 自行利用至多 3 分鐘 Youtube 影片, 進行課程學習報告, 並將影片嵌入各組的期末網站中.</p>
 <p>2.各組員利用期末考週時間, 同步至 ethercalc 登錄下半學期的自評成績.</p>
 <p>3.各分組在期末考週, 以至多 15 分鐘, 採網際簡報方式, 說明各組所完成的期末專題內容, 其中包括專題執行規劃、具體完成任務、各組員分工情況與 final report pdf 製作流程等.</p>
-<h1>Python Manual</h1>
+<h2>Python Manual</h2>
 <p>計算機程式教材:&nbsp;&nbsp;<a href="http://mde.tw/cp2018/content/">http://mde.tw/cp2018/content/</a>&nbsp;</p>
-<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p><h1>OnShape Manual</h1>
+<p>可攜程式下載: <a href="https://drive.google.com/file/d/1DWtyoUhl8CycKJ8uulB3viRXE39KqpE1/view?usp=sharing">p37.7z</a></p>
+<h2>OnShape Manual</h2>
 <p><a href="https://www.onshape.com/">https://www.onshape.com/</a>&nbsp;</p>
-<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p><h1>Fusion 360</h1>
-<p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p>
+<p>電腦輔助設計實習課程教材:&nbsp;<a href="http://mde.tw/cadp2018/content/">http://mde.tw/cadp2018/content/</a>&nbsp;</p>
+<h2>Fusion 360</h2><p><a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators">https://www.autodesk.com/products/fusion-360/students-teachers-educators</a>&nbsp;</p><h1>Weekly Progress</h1><p></p><h1>Lesson notes</h1>
+<p><strong>git 常用指令</strong></p>
+<p>git add .&nbsp; 新增所有改版內容</p>
+<p>git commit -m "提交訊息, 用來辨識版本" 在近端提交改版內容</p>
+<p>git push&nbsp; 將近端改版內容推送到遠端</p>
+<p>git pull&nbsp; 拉下遠端新版本內容, 在 fossil scm 使用 fossil update</p>
+<p>git log&nbsp; 查驗 git 提交推送紀錄</p>
+<p>git status&nbsp; 查驗狀態</p>
+<p>git 新增提交推送的身分綁定</p>
+<p>以 40623224@gm.nfu.edu.tw 註冊帳號為 40623224 為例:</p>
+<p>git config --global user.name "40623224"</p>
+<p>git config --global user.email "40623224@gm.nfu.edu.tw"</p>
+<p>若網路直接連線過慢, 可以透過 proxy 執行 git</p>
+<p>git config --global http.proxy http://proxy.kmol.info:3128</p>
+<p>以上的 git config 會將設定存入 Y:/home/.gitconfig 檔案中</p>
+<p>刪除近端與遠端的 Git 分支.</p>
+<p>To delete a local branch</p>
+<p>git branch -D the_local_branch</p>
+<p>To remove a remote branch</p>
+<p>git push origin :the_remote_branch</p>
+<p>or</p>
+<p>git push origin --delete the_remote_branch</p>
+<p><strong>把Onshape</strong><span><strong>吃下去，甚至學習做得更好吃</strong>_______柯柏</span></p>
+<p><img src="/images/6.jpg" width="500" height="375" alt=""></p>

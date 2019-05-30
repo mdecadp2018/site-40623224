@@ -1,0 +1,496 @@
+<!doctype html>
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>2018 Fall 分組網站</title> <link rel="stylesheet" type="text/css" href="./../static/cmsimply.css">
+
+<script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"></script>
+<link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+<script src="./../static/fengari-web.js"></script>
+<script type="text/javascript" src="./../static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../static/gearUtils-05.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+<style>
+img {
+    border: 2px solid blue;
+}
+</style>
+
+<script src="./../static/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+    $("ul.topmenu> li:has(ul) > a").append('<div class="arrow-right"></div>');
+    $("ul.topmenu > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+});
+</script>
+
+</head><header><h1>2019 Fall 40623224 Personal Website</h1> <confmenu>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="sitemap.html">Site Map</a></li>
+<li><a href="./../reveal/index.html">reveal</a></li>
+<li><a href="./../blog/index.html">blog</a></li>
+
+</ul>
+</confmenu></header>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Introduction.html'>Introduction</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a><li><a href='Mid-term operation.html'>Mid-term operation</a><li><a href='Weekly.html'>Weekly</a><li><a href='Python Manual.html'>Python Manual</a><li><a href='OnShape Manual.html'>OnShape Manual</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul><li><a href='Weekly Progress.html'>Weekly Progress</a><li><a href='Lesson notes.html'>Lesson notes</a></li></ul></nav><section>Mid-term operation << <a href='Mid-term operation.html'>Previous</a> <a href='Python Manual.html'>Next</a> >> Python Manual<br /><h1>Weekly</h1>
+<p>每週各分組組員必須將參與分組協同過程之電腦操作流程錄成影片後, 上傳至各自的 Youtube 帳號區, 並嵌入各分組網站頁面中.</p>
+<p><strong>Week1</strong></p>
+<p><strong>step1:</strong>建立一個新的倉庫,名字為自己的學號.github.io,權限設為公開</p>
+<p><img src="./../images/1538667461839.jpg" width="500" height="230" alt=""></p>
+<p><strong>step2:</strong>克隆新的倉庫的網址,資料夾名字取為40623224,按Enter</p>
+<p>git clone https://github.com/40623224/40623224.github.io 40623224</p>
+<p><img src="./../images/1538668182882.jpg" width="500" height="77" alt=""></p>
+<p><strong>step3:</strong>除了.git和README.md不能複製,其餘都複製在自己的資料夾</p>
+<p><img src="./../images/1538668434424.jpg" width="500" height="340" alt=""></p>
+<p><strong>step4:</strong>先看自己的狀態然後增加,再提交,推送的名稱為initial add</p>
+<p><img src="./../images/1538668882174.jpg" width="500" height="58" alt=""></p>
+<p><img src="./../images/1538668896157.jpg" width="500" height="55" alt=""></p>
+<p><img src="./../images/1538668954942.jpg" width="500" height="59" alt=""></p>
+<p><strong>step5:</strong>設定自己提交的email和名字</p>
+<p><img src="./../images/1538669257821.jpg" width="500" height="236" alt=""></p>
+<p><strong>step6:</strong>開啟進端<a>https://localhost:8443進去修改40623224</a></p>
+<p><img src="./../images/1538669755721.jpg" width="500" height="53" alt=""></p>
+<p><img src="./../images/1538669520622.jpg" width="500" height="51" alt=""></p>
+<p><img src="./../images/1538669793949.jpg" width="500" height="100" alt=""></p>
+<p><strong>step7:</strong>在重複step4的步驟,在git push上傳</p>
+<p><img src="./../images/1538670030580.jpg" width="500" height="52" alt=""></p>
+<p>完成gif圖:</p>
+<p><img src="./../images/1538670108214.gif" width="500" height="348" alt=""></p>
+<p><a href="https://github.com/40623224/40623224.github.io">40623224<span>個人倉儲</span></a></p>
+<p><strong>Q&amp;A:</strong></p>
+<p><strong>Q:</strong>什麼是Onshape?</p>
+<p><strong>A:</strong>Onshape是一個現代化的<span>CAD</span>系統，可以消除設計僵局，幫助工程師做最好的工作。<span>Onshape</span>將高級建模工具和設計數據管理結合在一個安全的雲工作空間中，該工作空間已迅速成為全球數千家公司的主要<span>CAD</span>系統。</p>
+<p><strong>Q:</strong>為什麼選擇<span>Onshape?</span></p>
+<p><strong>A:</strong>因為<span>Onshape</span>可以主動幫助我們並保護我們的知識產權，而它有七種不同的安全措施<span>(</span>即密碼保護訪問、雙因素認證、數據庫備份程序、專用服務器、通信安全、加密、第三方測試<span>)</span>。</p>
+<p><strong>影片:</strong></p>
+<p><iframe width="560" height="314" src="//www.youtube.com/embed/ax2ZuPm3YXc" allowfullscreen="allowfullscreen"></iframe></p>
+<p><strong>心得:</strong>第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。</p>
+<p><strong>Week2</strong></p>
+<h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">說明如何以 ShareX 取圖, 如何管理 CMSimfly 作業倉儲</yt-formatted-string></h5>
+<p>老師旗下的<a href="https://mdecadp2018.github.io/site-40623224/content/index.html">40623224每週學習作業倉儲</a></p>
+<p><strong>Step1:</strong>依照Week1先去mde.tw領取個人倉儲</p>
+<p><img src="./../images/1538671088302.jpg" width="500" height="337" alt=""></p>
+<p><img src="./../images/1538671119957.jpg" width="500" height="227" alt=""></p>
+<p><strong>Step2:</strong><span>利用 Settings 將內定 branch 設為 gh-pages</span></p>
+<p><img src="./../images/1538671627881.jpg" width="500" height="175" alt=""></p>
+<p><strong>Step3:</strong><span><strong>&nbsp;</strong>git clone 作業倉儲至近端後, 著手將練習 Onshape 的各項過程資料存入 CMSimfly, Reveal.js 與 Pelican Blog 中</span></p>
+<p><span>*若要在圖片上加上有顏色的框,對LEO開啟Y:/tmp/40623224/cmsimfly.leo調整顏色粗細大小</span></p>
+<p><span><img src="./../images/1538672017142.jpg" width="500" height="391" alt=""></span></p>
+<p><span>完成圖:</span></p>
+<p><span><img src="./../images/1538672311695.gif" width="500" height="351" alt=""></span></p>
+<p><strong>影片:</strong></p>
+<p><iframe width="500" height="280" src="//www.youtube.com/embed/q_1Ht6CLPWA" allowfullscreen="allowfullscreen"></iframe></p>
+<p><strong>心得:</strong>第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。</p>
+<p><strong>Week3</strong></p>
+<p>2018/09/24中秋節放假~~</p>
+<p><span>石頭日式無煙燒肉</span></p>
+<p>散播歡樂散播愛</p>
+<p><iframe width="500" height="280" src="//www.youtube.com/embed/158Ir6Mni60" allowfullscreen="allowfullscreen"></iframe></p>
+<p><strong>Week4</strong></p>
+<h4>開始學習 Onshape</h4>
+<p>Onshape 是一套純雲端 MCAD (Mechanical Computer Aided Design) 套件, 可以利用電腦中的瀏覽器, 手機或平板中的 App, 就可以執行 2D/3D 零組件設計繪圖.</p>
+<p>有關 Onshape 如何建立零組件, 請參考:</p>
+<p><a href="https://www.onshape.com/cad-blog/under-the-hood-how-does-onshape-really-work">https://www.onshape.com/cad-blog/under-the-hood-how-does-onshape-really-work</a>&nbsp;</p>
+<h4>Onshape 是一套雲端應用程式</h4>
+<p>雲端應用的特性是: 用多少運算資源, 才開啟多少運算資源, 可最佳化且不至超載.</p>
+<p>Onshape is like any other large-scale modern cloud application &ndash; a collection of servers and services. They can run on machines optimized for their purposes; and the number of instances can be optimized so that they are always busy, but not overloaded, to make efficient use of resources.</p>
+<h4>認證伺服器</h4>
+<p>Some servers that handle things (such as user authentication and authorization, and finding and listing documents) process lots of requests, but do not do much &ldquo;real work&rdquo; themselves. They forward complex requests to other servers. Others know what is &ldquo;inside&rdquo; a document, and keep modeling sessions in memory, resulting in long-lasting sessions for modeling with documents.</p>
+<h4>幾何運算伺服器</h4>
+<p>Onshape 的幾何模擬核心採用 Parasolid</p>
+<p>Onshape 採用 D-Cubed 解繪圖過程中的幾何約束條件</p>
+<p>Others, the admittedly unimaginatively named &ldquo;geometry servers,&rdquo; do all the math &ndash; these are optimized for computation power. These servers are the ones that reconstruct geometry from feature lists and FeatureScript, solve for instance positions in assemblies, and compute graphical tessellations. They make use of the venerable geometric modeling kernel Parasolid and constraint solver D-Cubed &ndash; both well-tested by many years of use in many CAD systems &ndash; which we license from Siemens PLM.</p>
+<p><strong>Step1:</strong>建立 Onshape 帳號 - 請利用學校 gmail 建立教育版帳號</p>
+<p><strong>Step2:</strong>3D 環境導航 (navigate)</p>
+<p><strong>Step3:</strong>說明基於草圖 (sketch-based)的建模</p>
+<p><strong>Step4:</strong>介紹 4 個基本特徵 (features)（擠出(extrude)，旋轉(revolve)，掃描(sweep)，和斷面混成(loaf)）</p>
+<p><strong>Step5:</strong>從 2D 過渡到 3D</p>
+<p><strong>Step6:</strong>介紹基本草圖</p>
+<p><strong>Step7:</strong>附錄A：鍵盤快捷鍵 (keyboard shotcuts)，滑鼠和觸控平面手勢 (touchpad gestures)，檢視工具</p>
+<p><strong>Step8:</strong>附錄B：導航說明檔，建立帳號，訂閱計劃 (subscription plans)</p>
+<p><strong>Step9:</strong>圓柱薄殼 (cylinder shell) - 繪圖界面與可視化/檢視的介紹</p>
+<p><strong>Step10:</strong>針對既有草圖的模型 - 接續建立特徵</p>
+<p><strong>Step11:</strong>現存公用模型 (public models) - 如何搜尋並復製到工作區 (workspace)</p>
+<p><strong>影片:</strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/iuG8icpePUc" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/wiBBlz0B_mM" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/DI3Nb21IKZs" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/HknsBNdyPIg" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/W5IC44XT-Ek" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><iframe width="500" height="280" src="//www.youtube.com/embed/7fJP3p3n7IM" allowfullscreen="allowfullscreen"></iframe></p>
+<h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">期中作業倉儲中 CMSimfly, Reveal, Pelican Blog 管理方法說明:</yt-formatted-string></h5>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/nMU9bYx0vPc" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<h5 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer">Onshape week1 課程使用說明:</yt-formatted-string></h5>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/UdYcuRKS6o4" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong>心得:</strong><span>第四週開始學習</span><span>Onshape</span><span>，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。</span></p>
+<p><strong>Onshape Assessment1</strong></p>
+<p><strong>Q:</strong>What&rsquo;s the quickest way to learn more about each feature in the toolbar?</p>
+<p>(什麼是了解工具欄中每個功能的最快方法)</p>
+<p><strong>A:</strong>Hover the mouse over it for a second, and a description of the feature will pop up</p>
+<p>(將鼠標懸停在其上一秒鐘，將彈出該功能的說明。)</p>
+<p><strong>Q:</strong>Briefly describe the four foundational features. Feel free to draw pictures if it helps:</p>
+<p>(簡要描述四個基本特徵。 <span>請隨意繪製圖片</span><span>幫助</span><span>說明</span>：)</p>
+<p><strong>A:</strong></p>
+<p>a. Extrude<span>( 擠出 )</span>: This geometry is created when a constant cross section is extruded in a&nbsp;straight direction(當一個恆定的橫截面沿直線方向擠出時，會產生這種幾何形狀):</p>
+<p><img src="./../images/q.png" width="500" height="243" alt=""><br>b. Revolve<span>( 迴轉 )</span>: This geometry is created when a constant cross-section is revolved<br>around an axis of revolution(當旋轉恆定橫截面時創建此幾何圍繞一個旋轉軸).</p>
+<p><img src="./../images/w.png" width="500" height="243" alt=""><br>c. Sweep<span>( 掃掠 )</span>: This geometry is created when a constant cross-section is swept along a path(當沿路徑掃過恆定的橫截面時，會創建此幾何體).</p>
+<p><img src="./../images/e.png" width="500" height="245" alt=""><br>d. Loft<span>( 斷面混層 )</span>: This geometry is created when multiple cross sections are smoothly<br>connected together(當多個橫截面平滑時，會創建此幾何體).</p>
+<p><img src="./../images/r.png" width="500" height="240" alt=""></p>
+<p><strong>Q:</strong>What is the default geometry in a Part Studio?&nbsp;</p>
+<p>(Part Studio中的默認幾何體是什麼？)</p>
+<p><strong>A:</strong>The origin and three orthogonal planes: Top, Front, Right.</p>
+<p>(原點和三個正交平面：<span>上視圖</span>，<span>前視圖</span>，<span>右側視圖&nbsp;</span>。)</p>
+<p><strong>Q:</strong>What&rsquo;s the difference between a box select from Left-to-Right and a box select from<br>Right-to-Left?</p>
+<p>(<span>從左到右</span><span>框</span><span>選和從</span><span>右</span><span>到</span><span>左</span><span>框</span><span>選有</span><span>什麼</span><span>區別</span>)</p>
+<p><strong>A:</strong>L-R = selects everything within the box, R-L = selects everything the box touches</p>
+<p><span>(&nbsp;框選框框內的所有內容 )</span></p>
+<p><strong>Q:</strong>Can a document in Onshape have multiple Part Studios?&nbsp;</p>
+<p><span>( Onshape的文件可以有多個Part Studios嗎 )</span></p>
+<p><strong>A:</strong>Yes.</p>
+<p><strong>Week5</strong></p>
+<p>*設計意圖指在設計進行前, 必須完成之專案目的與需求確認<br>*幾何外型越複雜, 越需要在零件設計之前做好設計意圖的確認</p>
+<p><strong>學習要點:</strong></p>
+<p><strong>1.</strong>簡介"設計意圖" (design intent)</p>
+<p><strong>2.</strong>設定尺寸 (dimensions) 與約束 (constraints)</p>
+<p><strong>3.</strong>自動推理 (automatic inferencing)</p>
+<p><strong>4.</strong>繪製精確的零件 (accurate part)</p>
+<p><strong>5.</strong>草圖繪製練習</p>
+<p><strong>6.</strong>運用與建立平面 (planes)</p>
+<p><strong>7.</strong>建立圓角 (fillets) 與倒角 (chamfers)</p>
+<p><strong>8.</strong>使用多個 (multiple) 草圖區域 (sketch regions)</p>
+<p><strong>9.</strong>基本零件</p>
+<p><strong>10.</strong>繪製時鐘模型 - 用於設計意圖教學</p>
+<p><strong>11.</strong>各種簡單的幾何形狀 (geometric shapes)</p>
+<p><strong>影片:</strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/zfDkWQMvFSU" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/_tRrUEvcGuo" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/Uale03G8mgM" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/FzpaCGQ4BVc" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/KVAkH555LrY" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong>心得:</strong><span>第五週進入到</span><span>Onshape第二週</span><span>，這一週開始必須要了解到自己的設計意圖是什麼，還有設定尺寸以及如何去約束他，並且要正確和精準。</span></p>
+<p><strong>Onshape Assessment2</strong></p>
+<p><strong>Q:</strong>Describe in your own words, what is design intent?</p>
+<p>(<span>用你自己的話來描述什麼是設計意圖&nbsp;</span>)</p>
+<p><strong>A:</strong>Design Intent is the practice of developing your project&rsquo;s objectives and requirements<br>even before working on your design</p>
+<p><span>&nbsp;( 設計意圖是在開始設計之前開發項目目標和要求的實踐 )</span></p>
+<p><strong>Q:</strong>What is the difference between sketch entities that are colored blue, black, and red?&nbsp;</p>
+<p>(藍色，黑色和紅色的草圖實體之間有什麼區別？)</p>
+<p><strong>A:</strong>Blue means it is underconstrained, black means it is fully constrained, and red means it is overconstrained.</p>
+<p>(藍色表示它不受約束，黑色表示它完全受約束，紅色表示它過度約束。)</p>
+<p><strong>Q:</strong>What is automatic inferencing, and how is it utilized?</p>
+<p>(什麼是自動推理，以及如何使用它？)</p>
+<p><strong>A:</strong>When Onshape automatically assigns constraints to sketch entities while sketching. It<br>can be activated by hovering over an existing entity, or temporarily turned off by<br>selecting the [shift] key.</p>
+<p>(當Onshape在繪製草圖時自動為草圖實體指定約束時。 它可以通過將鼠標懸停在現有實體上來激活，也可以暫時關閉選擇[shift]鍵。)</p>
+<p><strong>Q:</strong>Which feature is this and what is it used for: ?&nbsp;</p>
+<p>(這是什麼功能以及它用於：？)</p>
+<p><strong>A:</strong>This is the plane tool, used to create new planes in addition to the default<br>Top/Right/Front planes.</p>
+<p>(<span>這是平面工具，除了默認的頂部/右側/前平面外，還用於創建新平面 )</span></p>
+<p><strong>Q:</strong>How are fillets and chamfers similar? How are they different?&nbsp;</p>
+<p>(圓角和倒角有何相似之處？ 他們有什麼不同？)</p>
+<p><strong>A:</strong>They are the same in that both features are applied to edges only, they are different in<br>that a fillet creates a round profile, and a chamfer creates a flat profile.</p>
+<p>(它們是相同的，因為兩個特徵僅應用於邊緣，它們是不同的<br>圓角創建圓形輪廓，倒角創建平面輪廓。)</p>
+<p><strong>Week6</strong></p>
+<p>將倉儲中的 flaskapp.py 更新至最新版本</p>
+<p>搜尋 github cmsimfly</p>
+<p><strong>影片:</strong></p>
+<h5><strong>更新 lab-booking-cdlab 倉儲內容為例, 說明管理內容流程</strong></h5>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/6ULAecjorvU" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<h5 class="title style-scope ytd-video-primary-info-renderer"><strong>如何升級最新的 CMSimfly 倉儲中的 flaskapp.py</strong></h5>
+<p><strong><iframe width="500" height="280" src="//www.youtube.com/embed/mH_tW3erBqs" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p><strong></strong></p>
+<p><strong>心得:</strong></p>
+<p>瞭解老師給予的Onshape教材中的一些專屬名詞，把不懂的單字記錄下來，如果遇到這個單字時能夠迅速找到它的中文解釋，以及如何更新最新<span>的CMSimfly</span><span>，不然更新自己網站的內容時，因為某些原因導致&nbsp;&nbsp;<a>https://localhost:8443</a>&nbsp;一直出現錯誤而無法使用</span><span>，還有討論到有關人事時地物等關鍵內容的架構安排。</span></p>
+<p><strong>Onshape Assessment3</strong></p>
+<p><strong>Q:</strong>What are the 3 types of Boolean Operations and how do they work? Feel free to draw<br>pictures if they help.</p>
+<p>(3種類型的布爾運算有哪些，它們如何工作？ 隨意畫畫圖片，如果他們幫助。)</p>
+<p><strong>A:</strong></p>
+<p>a. Add/Union<span>( 接合 )</span> - A single Part is created from multiple, overlapping &ldquo;Tools&rdquo;.<span>(&nbsp;</span><span>合併零件</span><span lang="zh-TW">&nbsp;)</span><br>b. Subtract <span>( 切割 )</span>- &ldquo;Tools&rdquo; are used to remove material from &ldquo;Targets&rdquo;.<span>&nbsp;(&nbsp;</span><span>移除零件，允許零件之間的偏移</span><span>&nbsp;)</span><br>c. Intersect<span>( 相交 )</span> - The overlapped volumes are created by multiple, overlapping &ldquo;Tools&rdquo;<span>(&nbsp;</span><span>合併零件，僅在交叉點存在的地方保留材料 )</span></p>
+<p><strong>Q:</strong>What is the main difference between a Linear and a Circular Part pattern?&nbsp;</p>
+<p>(線性和圓形零件圖案之間的主要區別是什麼？)</p>
+<p><strong>A:</strong>A Linear pattern creates parts along a straight linear reference, a circular pattern creates parts around an axis reference.</p>
+<p>(線性圖案沿直線參考創建零件，圓形圖案創建繞軸參考的零件。)</p>
+<p><strong>Q:</strong>When might you use a Part Pattern versus a Feature Pattern?</p>
+<p>(您何時可以使用零件圖案與特徵圖案？)</p>
+<p><strong>A:</strong>A Part Pattern patterns an individual part while a Feature Pattern patterns a specific<br>feature (or features) listed in the Feature Tree, such as extrude, fillet, sweep, and sketch.&nbsp;</p>
+<p>(零件圖案模擬單個零件，而特徵圖案模式特定要素樹中列出的要素（或多個要素），例如拉伸，圓角，掃掠和草圖。)</p>
+<p><strong>Q:</strong>Describe in your own words what &ldquo;Top-Down Design&rdquo; means.&nbsp;</p>
+<p>(用你自己的話來描述&ldquo;自上而下的設計&rdquo;的含義。)</p>
+<p><strong>A:</strong>Top-Down Design is when the shape of an overall product is sketched first, and then<br>different regions of that sketch are used to create the lower level parts and their features.</p>
+<p>(自上而下設計是指首先勾畫整個產品的形狀，然後是該草圖的不同區域用於創建較低級別的部件及其特徵。)</p>
+<p><strong>Q:</strong>Why is it smart to put fillets and chamfers at the end of the feature list?</p>
+<p>(為什麼在功能列表的末尾放置圓角和倒角是明智的？)</p>
+<p><strong>A:</strong>Because they are not critical features, and having them too early in the model, could<br>result in accidentally referencing them while creating critical geometry.</p>
+<p>(因為它們不是關鍵功能，並且在模型中使用它們太早，所以可以導致在創建關鍵幾何體時意外引用它們。)</p>
+<p><strong>Q:</strong>How is the mirror tool being utilized in the creation of our Clamp design?</p>
+<p>(如何在創建Clamp設計時使用鏡像工具？)</p>
+<p><strong>A:</strong>We are using it to save time by only modeling half of our pins and hinges, and then<br>mirroring them over the symmetry plane.</p>
+<p>(我們只是通過模擬我們的一半引腳和鉸鏈來節省時間，然後在對稱平面上鏡像它們。)</p>
+<p><strong>Week7</strong></p>
+<ol>
+<li><span>Lesson on degrees of freedom (&nbsp;自由度 )</span><span></span></li>
+<li><span>An introduction to assembly Mates (&nbsp;介紹配合</span>組件 )</li>
+<li><span>Mate Connectors (&nbsp;配合連接器 )</span></li>
+<li><span>Manipulating part position with the triad (&nbsp;用三合一操縱零件位置 )</span></li>
+<li><span>Explaining Mates and Relations (&nbsp;解釋配合和關係 )</span></li>
+<li><span>Animating Mates (&nbsp;動畫配合 )</span></li>
+<li><span>An introduction to Linked Documents ( 介紹相關聯的文件 )</span></li>
+<li><span>Applying limits to a Mate (&nbsp;對配合施加限制 )</span><span></span></li>
+</ol>
+<h4><span>Assembly and Mate Connector</span></h4>
+<p><span>For designing and manufacturing an assembly, it is important to know which parts go into the assembly, how many of each, how they are assembled, and how they should perform.&nbsp;</span></p>
+<p><span>(為了設計和製造組件，重要的是要知道哪些部件進入組件，每個部件中有多少，它們如何組裝以及它們應該如何執行。)</span></p>
+<p><span>A Mate in Onshape fully describes how two parts will interact with each other by specifically controlling each degree of freedom through the use of things called Mate Connectors. You can think of a Mate Connector as a small, local coordinate system (an x, y, and z axis) for a joint between two parts. The Red line is the X-axis, the Green is the Y, and the Blue is the Z.</span></p>
+<p><span>(Onshape 中的配合通過使用稱為配合連接器的東西，通過專門控制每個自由度來充分描述兩個部件如何相互作用。您可以將配合連接器視為兩個部件之間的連接的小型局部坐標系（x，y 和 z 軸）。紅線是 X 軸，綠色是 Y 軸，藍色是 Z 軸。)</span></p>
+<h4><span>&nbsp;Animations</span></h4>
+<p><span>Animations are a great way to view the motion of your Mate before accepting it. Onshape will automatically move the Mate in a way that will exercise the Degrees of Freedom. In a Revolute Mate the part will rotate, in a Slider Mate, the part will slide, in a Cylinder Mate, the part will slide and rotate, etc.</span></p>
+<p><span>(動畫是在接受配合之前查看配合動作的絕佳方式。Onshape 將自動配合，以行使自由度。在旋轉配合中，零件將會旋轉，在滑塊配合中，零件將會滑動，在圓柱配合中，零件將會滑動和旋轉等)</span></p>
+<h4><span>Relations and Limits</span></h4>
+<p><span>A relation is a way in Onshape to constrain degrees of freedom between two Mates. Where a Mate controls how many degrees of freedom a pair of parts has between them, a Relation can control how those degrees of freedom move with respect to each other. There are 4 types of Relations in Onshape: Gear, Rack and Pinion, Screw, and Linear. These relations rely on preexisting Mates to define the type of motion that will occur between two parts.</span></p>
+<p><span>(關係是在 Onshape 中限制兩個配偶之間自由度的一種方式。其中一個配合控制一對部件的多少個自由度可以控制那些自由度如何相對於彼此的移動。在 Onshape 中有 4 種類型的關係：齒輪，齒條和小齒輪，螺釘和線性。這些關係依賴於已有的配合來定義將兩個部件之間發生運動的類型。)</span></p>
+<p><strong>心得:</strong></p>
+<p>由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初<span>發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM&nbsp;。</span></p>
+<p>Onshape Assessment4</p>
+<p><strong>Q:</strong>What is the difference between a fixed and a moveable assembly in Onshape?&nbsp;</p>
+<p>(在Onshape中固定組件和可移動組件之間有什麼區別？)</p>
+<p><strong>A:</strong>A Fixed assembly is created using the Top-Down Design method in a Part Studio and is<br>static, while a Moveable assembly is built in an Assembly tab using Mates and can be<br>used to visualize motion.</p>
+<p><span>( 固定裝配使用零件中的自頂向下設計方法創建，並且是靜態的，而可移動裝配合使用在裝配選項卡中構建，可用於可視化運動 )&nbsp;</span></p>
+<p><strong>Q:</strong>What is so unique about the Mate Connector in Onshape?&nbsp;</p>
+<p>(<span>Onshape中的配合連接器有什麼獨特之處</span>)</p>
+<p><strong>A:</strong>It is a single feature which allows for the full definition of all 6 degrees of freedom. It is<br>the bases for how mates are defined.</p>
+<p>(它是一個單一的功能，可以完全定義所有6個自由度。 它是<br>如何定義配偶的基礎。)</p>
+<p><strong>Q:</strong>. How many degrees of freedom do the following Mates have:</p>
+<p>(<span>多少自由度執行以下配合</span>)</p>
+<p><strong>A:</strong></p>
+<p>a. Fastened - 0 (&nbsp;固定 - 0 )</p>
+<p>b. Revolute - 1 (&nbsp;迴轉 - 1 )</p>
+<p>c. Slider - 1 (&nbsp;滑塊 - 1 )</p>
+<p>d. Planar - 3 ( 平面 - 3 )</p>
+<p>e. Cylindrical - 2 (&nbsp;圓柱形 - 2 )</p>
+<p>f. Ball - 3 (&nbsp;球 - 3 )</p>
+<p><strong>Q:</strong>When a mate is initially defined, does Onshape solve the entire model, or just that mate?&nbsp;</p>
+<p><span>(當最初定義配合時，Onshape 會整個模型一起定義，還是只有那個配合)</span></p>
+<p><strong>A:</strong>Just that mate(<span>( 只有那個配合 )</span>)</p>
+<p><strong>Q:</strong>What is a Relation? Provide 2 examples. (什麼是關係？ 提供2個例子。)</p>
+<p><strong>A:</strong>It allows degrees of freedom to be defined between two existing mates. Examples are<br>Gear, Rack &amp; Pinion, Screw, and Linear.</p>
+<p>(它允許在兩個現有配合之間定義自由度。 例子是齒輪，齒條和小齒輪，螺釘和線性。)</p>
+<p><strong>Week8</strong></p>
+<ol>
+<li><span>An introduction to engineering drawings(&nbsp;工程圖紙簡介 )</span></li>
+<li><span>Creating drawing views, dimensioning, tolerancing, notes(創建圖紙視圖，尺寸標註，公差，筆記)</span></li>
+<li><span>Using formats/templates(使用格式/模板)</span></li>
+<li><span>Introducing GTOL/GD&amp;T(介紹GTOL / GD＆T)</span></li>
+</ol>
+<p><span><strong>心得:</strong>這一週課程是讓我們題交推送之前尚未完成的Week，並知道自己學到哪裡，然而期中考過後準備分組課程，一組以六個人為單位，這八週，從學習github到繪製Onshape，再到可以熟練繪製Onshape，然而了解一些畫法，找出因應方法，接下來就是開始準備期中過後的課程了~</span></p>
+<p>Onshape Assessment5</p>
+<p><strong>Q:</strong>Which four views are included in the &ldquo;Four View Layout&rdquo; in Onshape?&nbsp;</p>
+<p>(在Onshape的&ldquo;四視圖佈局&rdquo;中包含哪四個視圖？)</p>
+<p><strong>A:</strong>Front, Top, Right, Isometric<span>( 前視圖、上視圖、右側視圖、等角視圖 )</span></p>
+<p><strong>Q:</strong>What is the difference between a Dimension and a tolerance? (尺寸和公差有什麼區別？)</p>
+<p><strong>A:</strong>The dimension is the nominal (&ldquo;perfect&rdquo;) measurement of our geometry, whereas the<br>tolerance is the acceptable variation of our geometry allowed during manufacturing.</p>
+<p>(尺寸是我們的幾何的標稱（&ldquo;完美&rdquo;）測量，而公差是製造過程中允許的幾何形狀的可接受變化。)</p>
+<p><strong>Q:</strong>Name &amp; Describe the following Dimension/Tolerance types:<span>( 描述以下尺寸/公差類型 )&nbsp;</span></p>
+<p><strong>A:</strong></p>
+<p>a. Deviation<span>(&nbsp;偏差 )</span> - This communicates the allowable +/-deviation from the nominal dimension.<span>( 允許 + / - 偏離標稱尺寸)</span><br>b. Limits<span>(&nbsp;限制 )&nbsp;</span> - This communicates the allowable limits of the dimension (the nominal is not shown).<span>&nbsp;( 尺寸的允許限制,標稱未顯示 )&nbsp;</span><br>c. Basic <span>(&nbsp;基本 )</span>- This has no tolerance, and therefore may only be used when GD&amp;T is utilized to define the tolerance range.<span>( 沒有公差，因此只能在使用 GD＆T 時來定義公差範圍 )</span></p>
+<p><strong>Q:</strong>What is the real-world implication of changing a standard dimension on an engineering print from &ldquo;1.750&rdquo; to &ldquo;1.75&rdquo;?&nbsp;<span>( 將工程印刷品的標準尺寸從 &ldquo; 1.750 &rdquo; 改為 &ldquo; 1.75 &rdquo; 的現實含義是什麼 )</span></p>
+<p><strong>A:</strong>It means that we are changing the tolerance to a &ldquo;looser&rdquo; one (wider allowable range) as defined by the tolerance block in the drawing format.&nbsp;</p>
+<p>(這意味著我們正在將容差改為&ldquo;寬鬆&rdquo;（更寬的允許範圍）由圖形格式的公差塊定義。)</p>
+<p><strong>Q:</strong>Do Onshape drawing views update automatically? Why or why not?&nbsp;</p>
+<p>(Onshape繪圖視圖會自動更新嗎？ 為什麼或者為什麼不？)</p>
+<p><strong>A:</strong>No they do not, as this gives the designer control whether they want the drawing to<br>reflect the latest design or not. It is a form of revision control, since Onshape does not<br>have (or need) a formal PDM system.</p>
+<p><span>(設計師控制他們是否想要繪圖反映最新的設計與否。這是一種修訂控制形式，因為Onshape沒有擁有（或需要）正式的PDM系統 )</span></p>
+<p><strong>Week9</strong></p>
+<p>期中考週~</p>
+<p>六人分組</p>
+<p><strong>期中自評</strong>:83</p>
+<p><strong>Week10</strong></p>
+<p><strong>心得:</strong>這一週開始進行分組專題，我將會用前9週所學到的技術運用在期末專題上，與大家同心協力製作這一次專題，但是需要透過大家的努力，從現在開始我們就是一個團隊，希望各位能一起完成本次專題，而我們本次專題為3D列印機。</p>
+<p><strong>Onshape Assessment6</strong></p>
+<p><strong>Q:</strong>Do people need to have an Onshape account in order to be on an Onshape Team?&nbsp;</p>
+<p>(<span>人們是否需要擁有一個Onshape帳戶才能進入Onshape團隊？</span>)</p>
+<p><strong>A:</strong>No, Onshape will automatically send them an email invitation to create an account</p>
+<p>(<span>不，Onshape會自動向他們發送電子郵件邀請以創建帳戶</span>)</p>
+<p><strong>Q:</strong>What is a Derived Part, and why is it used?&nbsp;</p>
+<p>(<span lang="zh-TW">什麼是衍生零件，為什麼使用它？</span>)</p>
+<p><strong>A</strong>:It is when you import geometry into a Part Studio from another Part Studio. It allows the Top-Down Design of fixed assemblies which reference existing components</p>
+<p>(<span>將幾何圖形從另一個Part Studio導入Part Studio時。它允許參考現有組件的固定組件的自上向下設計</span>)</p>
+<p><strong>Q:</strong>In the first sketch of the Bluetooth Speaker, we used the small speaker to locate one of the circles. Why did we do this?&nbsp;</p>
+<p>(<span>在Bluetooth Speaker的第一個草圖中，我們使用小型speake來定位其中一個 圈子。我們為什麼這樣做？</span>)</p>
+<p><strong>A:</strong>This was done so that the location of the speaker would drive the geometry of the frame. This is a prime example of Top-Down Design.</p>
+<p><span>(這樣做是為了使speaker的位置能夠驅動框架的幾何形狀。 這是自上而下設計的一個主要例子。)</span></p>
+<p><strong>Q:</strong>Can multiple people work on the same Part Studio at the same time?&nbsp;</p>
+<p>(<span>多個人可以同時在同一個Part Studio上工作嗎？</span>)</p>
+<p><strong>A:</strong>Yes.</p>
+<p><strong>Q:</strong>Name and describe two collaboration tools in Onshape used for communication</p>
+<p>(<span style="font-size: inherit; font-family: monospace; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;">在用於通信的Onshape中命名並描述兩個協作工具</span>)</p>
+<p><strong>A:</strong></p>
+<p>a. Comment - Allows communication between team members, while referencing<br>exact geometry and/or features.</p>
+<p>(<span lang="zh-TW">註釋 - 允許團隊成員之間進行通信，同時引用精確的幾何和/或功能。</span>)<br>b. Follow - Allows a user to follow another user within Onshape.</p>
+<p>(<span lang="zh-TW">關注 - 允許用戶在Onshape中關注其他用戶。</span>)</p>
+<p><strong>Week11</strong></p>
+<p><strong>心得:</strong>我們在課堂上利用時間討論我們這次的專題，並利用剩餘的時間一起把網站結構架設出來，然而我們在進行網站維護與更新遇上了一些問題，但是經由討論，發現到網站維護有一些特性，並把這些錯誤揪出來並解決。</p>
+<p><strong>Onshape Assessment7</strong></p>
+<p><strong>Q:</strong>What is a &ldquo;Version&rdquo; and why are they used?&nbsp;</p>
+<p>(<span lang="zh-TW" style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;">什麼是&ldquo;版本&rdquo;，為什麼使用它們？</span><span style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;">)</span></p>
+<p><strong>A</strong>:A version is a specific point in time in the history of the model that can always be<br>restored. When sharing documents, the last saved version is used. Versions capture<br>snapshots of the design process.<strong><br></strong></p>
+<p>(<span lang="zh-TW">版本是模型歷史中可以始終存在的特定時間點 恢復。共享文檔時，使用上次保存的版本。版本捕獲 設計過程的快照。</span>)</p>
+<p><strong>Q:</strong>Describe what FeatureScript is. (<span>描述FeatureScript是什麼。</span>)</p>
+<p><strong>A:</strong>Featurescript allows you to create your own custom features in Onshape that you can<br>share with the rest of the Onshape community? They behave just like any other<br>Onshape feature because they are written using the same language.</p>
+<p>(<span lang="zh-TW">Featurescript允許您在Onshape中創建自己的自定義功能 與其他的Onshape社區分享？他們的行為與其他任何一樣 Onshape功能因為它們是使用相同的語言編寫的。</span>)</p>
+<p><strong>Q:</strong>Give two examples of custom features.(<span lang="zh-TW">舉兩個自定義功能示例。</span>)</p>
+<p><strong>A:</strong>Rib, Screw Boss, etc</p>
+<p><strong>Q:</strong>Does Onshape&rsquo;s history clear itself when you close your browser window or logout of<br>Onshape?&nbsp;</p>
+<p>(<span lang="zh-TW">當您關閉瀏覽器窗口或註銷時，Onshape的歷史是否會自行清除 Onshape？</span>)</p>
+<p><strong>A:</strong>No, Onshape&rsquo;s history is permanent and forever(<span>不，Onshape的歷史是永久的，永恆的</span>)</p>
+<p><strong>Q:C</strong>an features be re-ordered in Onshape, if so how?&nbsp;</p>
+<p>(<span lang="zh-TW">可以在Onshape中重新排序功能，如果是這樣的話怎麼樣？</span>)</p>
+<p><strong>A:</strong>Yes, simply click on a feature and drag it up/down the feature list.</p>
+<p>(<span>是的，只需單擊某個功能並在功能列表中向上/向下拖動即可。</span>)</p>
+<p><strong>Week12</strong></p>
+<p><strong>心得:</strong>這週上課我們依然做網站以及投影片，但是我們發現到只要有兩個人以上推送倉儲時，另外一位組員若是沒有先PULL下來，就會使網站出現錯誤，爾且修改會變得非常麻煩，但是如果另一位組員沒有把錯誤解決的話拖到下一位組員時BUG會更加嚴重，所以我們在討論之後以後推送的話先一個推再給另一個做，並且在做之前先PULL下來。</p>
+<p><strong>Onshape Assessment8</strong></p>
+<p><strong>Q:</strong>Why was a Mate Connector specifically created in a Part Studio for the Bluetooth<br>Speaker?</p>
+<p>(<span lang="zh-TW">為什麼在Part Studio中專門為Bluetooth創建了一個Mate Connector Speaker？</span>)</p>
+<p><strong>A:</strong>In the battery part studio, there was no locating geometry (since the batteries just float in the speaker frame compartment) so one was created using a sketch as a reference to aid in assembly.</p>
+<p>(<span>在電池部件工作室中，沒有定位幾何形狀（因為電池只是漂浮在speaker框架隔間中）所以使用草圖作為參考來創建一個以幫助組裝。</span>)</p>
+<p><strong>Q:</strong>What does &ldquo;Reorient Secondary Axis&rdquo; mean, and when is it used?&nbsp;</p>
+<p>(<span>&ldquo;Reorient Secondary Axis&rdquo;是什麼意思，什麼時候使用？</span>)</p>
+<p><strong>A:</strong>It allows a Mate in Onshape to be rotated around its Blue axis. It is used when the part<br>being assembled is not clocked in the correct direction.</p>
+<p>(<span style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;">它允許Onshape中的Mate圍繞其藍軸旋轉。它用於零件</span><span lang="zh-TW" style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;">正在裝配的時間不正確。</span><span style="font-family: monospace; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;">)</span></p>
+<p><strong>Q:</strong>What is Snap Mode, and why would it be used?&nbsp;</p>
+<p>(<span lang="zh-TW">什麼是Snap模式，為什麼要使用它？</span>)</p>
+<p><strong>A:</strong>Snap Mode allows parts which are being inserted into an assembly to have a fastened<br>Mate be created &ldquo;on the fly&rdquo;. This is particularly helpful when assembling hardware, and<br>can save a lot of time.</p>
+<p>(<span lang="zh-TW">捕捉模式允許插入組件的部件具有固定 配對是&ldquo;動態&rdquo;創建的。這在組裝硬件時尤其有用 可以節省很多時間。</span>)</p>
+<p><strong>Q:</strong>When is a Mate Group used?(<span lang="zh-TW">什麼時候使用Mate Group？</span>)</p>
+<p><strong>A:</strong>When you want to treat multiple parts as a subassembly, and prevent relative motion<br>between the parts</p>
+<p>(<span lang="zh-TW">當您想將多個零件視為子裝配時，並防止相對運動部件之間</span>)</p>
+<p><strong>Q:</strong>Can replicate be used to mate across multiple parts, or only to multiple locations on the same part?&nbsp;</p>
+<p>(<span>可以復制用於跨多個部分交配，或僅用於交互的多個位置同一部分？</span>)</p>
+<p><strong>A:</strong>Across multiple parts.(<span>跨越多個部分。</span>)</p>
+<p><strong></strong></p>
+<p><strong>Week13</strong></p>
+<p><strong>心得:</strong>這一週開始經由課堂上老師的各組專題重點介紹後，我與另一位組員開始討論如何畫出3D列印機，並思考如何呈現出來，在回家後試畫出框架的部分，而程式部分的展現也要考慮進去，否則畫出來的實體有可能不好去模擬。</p>
+<p></p>
+<p><strong>Onshape Assessment9</strong></p>
+<p><strong>Q:</strong>What is draft, and for what manufacturing purpose is it mainly used?&nbsp;</p>
+<p>(<span lang="zh-TW">什麼是草案，主要用於什麼製造目的？</span>)</p>
+<p><strong>A:</strong>Draft is when you add a small angle (1-3&deg;) to any surface so that it may be properly<br>manufactured using Plastic Injection Molding processes. The draft angle is measured<br>between the the surface and the direction of pull.</p>
+<p>(<span>草稿是指向任何表面添加一個小角度（1-3&deg;）以使其正確 採用注塑成型工藝製造。測量拔模角度 在表面和拉動方向之間。</span>)</p>
+<p><strong>Q:</strong>Why are small radii common in parts that have been designed for plastic injection<br>molding? (<span lang="zh-TW">為什麼在設計用於注塑的部件中常見小半徑成型？</span>)</p>
+<p><strong>A:Ad</strong>ding small radii to sharp edges allows for the plastic to &ldquo;flow&rdquo; better during the molding process, and facilitates easier removal of the part from the tooling after molding.</p>
+<p>(<span>向尖銳邊緣添加小半徑允許塑料在模製期間更好地&ldquo;流動&rdquo; 工藝，並有助於在模製後更容易地從工具中移除零件。</span>)</p>
+<p><strong>Q:</strong>What is a &ldquo;Split&rdquo; feature?(<span>什麼是&ldquo;拆分&rdquo;功能？</span>)</p>
+<p><strong>A:</strong>It is when you cut a single part into multiple parts using a surface or plane.</p>
+<p>(<span>當您使用曲面或平面將單個零件切割成多個零件時。</span>)</p>
+<p><strong>Q:</strong>Explain a typical use of a Variable in Onshape.&nbsp;</p>
+<p>(<span lang="zh-TW">解釋變量在Onshape中的典型用法。</span>)</p>
+<p><strong>A:</strong>A Variable is used to establish a design parameter, for example the thickness of a plastic part, that may be referenced throughout the design; in multiple features and parts.(<span>變量用於建立設計參數，例如塑料的厚度部分，可在整個設計中引用;在多個功能和部分</span>)</p>
+<p><strong>Q:</strong>Explain what is going on in the &ldquo;thickness&rdquo; entry of the dialog box below:</p>
+<p>(<span lang="zh-TW">解釋下面對話框的&ldquo;厚度&rdquo;條目中發生了什麼：</span>)</p>
+<p><strong>A:</strong>We are defining the thickness of the rib feature as an expression, 0.7 X &ldquo;thk&rdquo; inches,<br>where &ldquo;thk&rdquo; is a previously defined variable in our model.</p>
+<p>(<span>我們將肋骨特徵的厚度定義為表達式，0.7 X&ldquo;thk&rdquo;英寸， 其中&ldquo;thk&rdquo;是我們模型中先前定義的變量。</span>)</p>
+<p><strong>Week14</strong></p>
+<p><strong>心得:</strong>由於17週放連假的關係，我們這一週開始補課，大家各自的進度都在預期之中，我們將畫好的零組件組裝起來，在組合期間有一些問題，像是畫出來之後組裝時因為零件干涉的問題必須需要調整變數，而微調的零件又有可能影響另外一個零件，在這過程之中去完成組合，使我們的專題更接近完成的一步。</p>
+<p><strong>Onshape Assessment10</strong></p>
+<p><strong>Q:</strong>How does the &ldquo;Hole&rdquo; feature save time? (<span lang="zh-TW">"孔"功能如何節省時間？</span>)</p>
+<p><strong>A:</strong>Since most holes have standard sizes, the Hole feature has presets geometry to allow<br>the user to just select from a library of options, instead of having to sketch the profile of<br>the hole. In addition, it just references existing sketch points, thus saving time during<br>hole placement as well.</p>
+<p>(<span>由於大多數孔都具有標準尺寸，因此孔特徵具有允許的預設幾何形狀 用戶只需從選項庫中進行選擇，而不必草繪輪廓 洞。此外，它僅引用現有的草圖點，從而節省了時間 孔位置也是如此。</span>)</p>
+<p><strong>Q:</strong>What does the &ldquo;offset&rdquo; option do in the Spur Gear FeatureScript feature?</p>
+<p>(<span>&ldquo;偏移&rdquo;選項在Spur Gear FeatureScript功能中的作用是什麼？</span>)&nbsp;</p>
+<p><strong>A:</strong>It allows the gear to be &ldquo;clocked&rdquo; so adjacent gears can be perfectly meshed</p>
+<p>(<span lang="zh-TW">它允許齒輪&ldquo;定時&rdquo;，因此相鄰的齒輪可以完美嚙合</span>)</p>
+<p><strong>Q:</strong>True or False: Onshape can directly import a Solidworks Pack n Go file.</p>
+<p>(<span lang="zh-TW">對錯：Onshape可以直接導入Solidworks Pack n Go文件。</span>)</p>
+<p><strong>A:</strong>True.</p>
+<p><strong>Q:</strong>Name two of the four &ldquo;Direct Editing&rdquo; features in Onshape</p>
+<p>(<span lang="zh-TW">在Onshape中命名四個&ldquo;直接編輯&rdquo;功能中的兩個</span>)</p>
+<p><strong>A:</strong></p>
+<p>a. Modify Fillet(<span lang="zh-TW">修改圓角</span>)<br>b. Delete Face(<span lang="zh-TW">刪除面</span>)<br>c. Move Face(<span lang="zh-TW">移動平面</span>)<br>d. Replace Face(<span lang="zh-TW">更換面</span>)</p>
+<p><strong>Q:</strong>List 3 different capabilities that can be found in the App store.&nbsp;</p>
+<p>(<span lang="zh-TW">列出可在App Store中找到的3種不同功能。</span>)</p>
+<p><strong>A:</strong>Rendering, CAM, BOM, Assembly Explode, FEA/CFD Simulation, 3D Printing, hardware libraries, etc.</p>
+<p><strong>Week15</strong></p>
+<p><strong>心得:</strong>這週開始使用V-rep，看了老師給的參考資料，花了很多時間在查單字上，在學習的過程當中讓我知到英文的重要性，也知道自己的英文能力非常差，但利用這些課程讓我自己提升英文能力是一個不錯的選擇，而我們已經將零件組裝完成開始使用V-rep，老師也敘述為什麼要改版 ? (1) 增加功能 (2) 修改錯誤 還有為什麼要有版本紀錄 ? (1) 看誰有做事 (2) 可以還原 (3) 查看細節的更動，也意旨我們付出多少就拿多少分數。</p>
+<p><strong>Onshape Assessment11</strong></p>
+<p><strong>Q:</strong>Name 2 typical real-world applications for a &ldquo;Loft&rdquo; feature.&nbsp;</p>
+<p>(<span lang="zh-TW">為&ldquo;Loft&rdquo;功能命名2個典型的實際應用程序。</span>)</p>
+<p><strong>A:</strong>Fan blades, aircraft wings, propellor, other aerodynamic applications, etc.</p>
+<p>(<span lang="zh-TW">風扇葉片，飛機機翼，螺旋槳，其他空氣動力學應用等。</span>)</p>
+<p><strong>Q:</strong>Which sketch tool is the best for tracing over curvy lines?&nbsp;</p>
+<p>(<span lang="zh-TW">哪種草圖工具最適合追踪曲線？</span>)</p>
+<p><strong>A:</strong>Spline.</p>
+<p><strong>Q:</strong>What does it mean to &ldquo;emboss&rdquo; text onto the surface?&nbsp;</p>
+<p>(<span lang="zh-TW">將文字&ldquo;浮雕&rdquo;到表面上意味著什麼？</span>)</p>
+<p><strong>A:</strong>It is when the text is either raised, or sunken, into the surface of a part</p>
+<p>(<span>當文字被抬起或凹陷進入零件表面時</span>)</p>
+<p><strong>Q:</strong>What is a common application of a &ldquo;Helix&rdquo; feature?&nbsp;<span lang="zh-TW">(&ldquo;Helix&rdquo;功能的常見應用是什麼？)</span></p>
+<p><strong>A:</strong>To model a spring, or a threaded surface(<span>模擬彈簧或螺紋表面</span>)</p>
+<p><strong>Q:</strong>What does it mean to &ldquo;Branch and Merge&rdquo; a design in Onshape?&nbsp;</p>
+<p>(<span>在Onshape中&ldquo;分支和合併&rdquo;設計</span><span style="background-color: #ffffff; color: #626262;">意味著什麼？</span><span style="background-color: #ffffff; color: #626262;">)</span></p>
+<p><strong>A:</strong>Generally speaking, &ldquo;branching&rdquo; and &ldquo;merging&rdquo; are tools used in concurrent design,<br>where design variations are investigated at the same time. A &ldquo;Branch&rdquo; represents one of<br>the several design options, and a &ldquo;Merge&rdquo; is when two design options are combined,<br>where the result has the design features of both options.</p>
+<p>(<span lang="zh-TW">一般來說，&ldquo;分支&rdquo;和&ldquo;合併&rdquo;是並發設計中使用的工具， 同時調查設計變化的地方。 &ldquo;分支&rdquo;代表其中之一 幾個設計選項和&ldquo;合併&rdquo;是兩個設計選項相結合， 結果具有兩個選項的設計特徵。</span>)</p>
+<p><strong>Week16</strong></p>
+<p><strong>心得:</strong>離學期末剩下2週的時間，我們在Vrep運用方面非常的弱，去查資料也只有鋼球運動系統和行走機器人可以參考，我發現網路上很多找的都是類似滑塊的運動以及活塞的運動，在3D列印機的教學上並沒有很多參考資料，但還是盡可能的去做完它。</p>
+<p></p>
+<p><strong>Onshape Assessment12</strong></p>
+<p><strong>Q:</strong>What do the red regions in a section view in Onshape mean?&nbsp;</p>
+<p>(<span lang="zh-TW">在Onshape的剖面視圖中的紅色區域是什麼意思？</span>)</p>
+<p><strong>A:</strong>They represent an interference between two parts.</p>
+<p>(<span lang="zh-TW">它們代表兩個部分之間的干擾。</span>)</p>
+<p><strong>Q:</strong>How do you measure the distance between two surfaces in Onshape?&nbsp;</p>
+<p>(<span>如何測量Onshape中兩個表面之間的距離？</span>)</p>
+<p><strong>A</strong>:Simply select them, and look in the bottom right-hand corner of the graphics screen.</p>
+<p>(<span lang="zh-TW">只需選擇它們，然後查看圖形屏幕的右下角。</span>)</p>
+<p><strong>Q:</strong>What must each part have before Onshape can report accurate Mass Properties?&nbsp;</p>
+<p>(<span lang="zh-TW">在Onshape報告準確的質量屬性之前，每個部件必須具備什麼？</span>)</p>
+<p><strong>A:</strong>A material (density) assigned.(<span>分配的材料（密度）。</span>)</p>
+<p><strong>Q:</strong>What file type should be exported to 3D Print something from Onshape?&nbsp;</p>
+<p>(<span>應該將哪種文件類型導出到3D打印來自Onshape的東西？</span>)</p>
+<p><strong>A:</strong>STL</p>
+<p><strong>Q:D</strong>oes the Onshape mobile app allow you to edit your design via a phone or tablet, or is it just a &ldquo;view-only&rdquo; App? What&rsquo;s another common use case?</p>
+<p>(<span lang="zh-TW">Onshape移動應用程序是否允許您通過手機或平板電腦編輯您的設計，或者是它 只是一個&ldquo;僅限查看&rdquo;的應用程序？另一個常見的用例是什麼？</span>)</p>
+<p><strong>A:</strong>It allows you to view and edit your designs, as well as comment on designs wherever<br>you are(<span lang="zh-TW">它允許您查看和編輯您的設計，以及在任何地方評論設計</span>)</p>
+<p><strong>Week17</strong></p>
+<p>元旦放假~~</p>
+<p><img src="./../images/20181023103358_48734.jpg" width="1200" height="454" alt=""></p>
+<p><strong>Week18</strong></p>
+<p><strong></strong>期末考週</p>
+<p>專題完成~</p>
+<p>期末自評:</p>
+<p>1.各組成員在期末考週前, 自行利用至多 3 分鐘 Youtube 影片, 進行課程學習報告, 並將影片嵌入各組的期末網站中.</p>
+<p>2.各組員利用期末考週時間, 同步至 ethercalc 登錄下半學期的自評成績.</p>
+<p>3.各分組在期末考週, 以至多 15 分鐘, 採網際簡報方式, 說明各組所完成的期末專題內容, 其中包括專題執行規劃、具體完成任務、各組員分工情況與 final report pdf 製作流程等.</p>
+<br />Mid-term operation << <a href='Mid-term operation.html'>Previous</a> <a href='Python Manual.html'>Next</a> >> Python Manual</section></div></body></html>
