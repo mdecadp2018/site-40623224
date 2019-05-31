@@ -21,40 +21,68 @@
 <v t="leo.20180827201621.6" a="E"><vh>body</vh>
 <v t="leo.20180827201621.7" a="E"><vh>reveal div</vh>
 <v t="leo.20180827201621.8" a="E"><vh>slides div</vh>
-<v t="leo.20180827201621.9"><vh>封面投影片</vh>
+<v t="leo.20180827201621.9" a="E"><vh>封面投影片</vh>
 <v t="leo.20180827201621.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018215848.1" a="E"><vh>W1</vh>
-<v t="leo.20181018215848.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20181018215848.1" a="E"><vh>2019</vh>
+<v t="leo.20190531145645.1" a="E"><vh>10</vh>
+<v t="leo.20190531145645.2"><vh>1</vh></v>
 </v>
-<v t="leo.20181018220032.1" a="E"><vh>W2</vh>
+<v t="leo.20190531150542.1" a="E"><vh>11</vh>
+<v t="leo.20190531150542.2"><vh>1</vh></v>
+</v>
+<v t="leo.20190531145901.1" a="E"><vh>12</vh>
 <v t="leo.20181018220032.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018220033.1" a="E"><vh>W3</vh>
+<v t="leo.20190531150146.1" a="E"><vh>13</vh>
 <v t="leo.20181018220033.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018220035.1" a="E"><vh>W4</vh>
+<v t="leo.20190531150148.1" a="E"><vh>14</vh>
 <v t="leo.20181018220035.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018220228.1" a="E"><vh>W5</vh>
+<v t="leo.20190531150150.1"><vh>15</vh>
 <v t="leo.20181018220228.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018220237.1" a="E"><vh>W6</vh>
+<v t="leo.20190531150151.1"><vh>16</vh>
 <v t="leo.20181018220237.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018220314.1" a="E"><vh>W7</vh>
+<v t="leo.20190531150152.1"><vh>17</vh>
 <v t="leo.20181018220314.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181018220316.1" a="E"><vh>W8</vh>
-<v t="leo.20181018220316.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20181108125313.1" a="E"><vh>W9</vh>
-<v t="leo.20181108125313.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20190531150410.1"><vh>2018</vh>
+<v t="leo.20190531150410.2" a="E"><vh>1</vh>
+<v t="leo.20190531150410.3"><vh>1</vh></v>
+</v>
+<v t="leo.20190531150410.4"><vh>2</vh>
+<v t="leo.20190531150410.5"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.6" a="E"><vh>3</vh>
+<v t="leo.20190531150410.7"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.8"><vh>4</vh>
+<v t="leo.20190531150410.9"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.10" a="E"><vh>5</vh>
+<v t="leo.20190531150410.11"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.12"><vh>6</vh>
+<v t="leo.20190531150410.13"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.14"><vh>7</vh>
+<v t="leo.20190531150410.15"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.16"><vh>8</vh>
+<v t="leo.20190531150410.17"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20190531150410.18"><vh>9</vh>
+<v t="leo.20190531150410.19"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 <v t="leo.20180827201621.11"><vh>快捷鍵</vh>
 <v t="leo.20180827201621.12"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20180827201621.13"><vh>各式內容引用範例</vh>
+<v t="leo.20180827201621.13" a="E"><vh>各式內容引用範例</vh>
 <v t="leo.20180827201621.14" a="E"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180827201621.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
@@ -154,25 +182,26 @@ QLineEdit#editorLabel {
 <t tx="leo.20180827201556.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
-<t tx="leo.20180827201621.10">###  40623224 網際簡報
+<t tx="leo.20180827201621.10">###  40623224 2019 Spring
+###  Product Collaboration Design
 
-#### 虎科大機械設計工程系
 
-* [倉儲](https://github.com/mdecadp2018/site-40623224)
+* [個人倉儲](https://github.com/mdecadp2018/site-40623224)
 
-* [網站](https://mdecadp2018.github.io/site-40623224/content/)
+* [個人網站](https://mdecadp2018.github.io/site-40623224/content/)
 
-* [簡報](https://mdecadp2018.github.io/site-40623224/reveal/)
+* [BG4倉儲](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4)
 
-* [網誌](https://mdecadp2018.github.io/site-40623224/blog)
+* [BG4網站](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/index.html)
 
-* [Onshape](https://www.onshape.com)
+* [全班倉儲](https://github.com/scrum-1/cd2019b)
+
+* [全班網站](http://cpgx.kmol.info/cd2019b/content/index.html)
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40623224](https://github.com/40623224)
 &lt;/small&gt;
 
-#### [2018 Fall 分組網誌](./../blog/index.html)
 
 
 
@@ -386,84 +415,193 @@ make.start()
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="leo.20181018215848.1">&lt;section data-markdown&gt;
+<t tx="leo.20181018215848.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20181018220032.2">##  W12
+
+1.整合網站格式
+
+* [整合網站格式](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/25ea04de2b0fbfddc30442a6dba29fac908faed6)
+
+2.增加期末網站手足球工程圖
+
+* [手足球工程圖](https://mdecadp2018.github.io/site-40623224/content/Week10-18.html)
+
+
+
+
+
+</t>
+<t tx="leo.20181018220033.2">##  W13
+
+1.增加期末網站手足球工程圖
+
+* [手足球工程圖、組裝圖、爆炸圖](https://mdecadp2018.github.io/site-40623224/content/Week10-18.html)
+
+2.增加零件部分組裝圖和影片
+
+* [組裝圖影片](https://youtu.be/w3d5oVTR3Vw)
+
+3.增加3D 零組件爆炸圖和影片
+
+* [爆炸圖影片](https://youtu.be/qJq4vWour2Q)
+</t>
+<t tx="leo.20181018220035.2">##  W14
+
+1.增加零件 BOM下載連結
+
+* [零組件下載連結](https://drive.google.com/open?id=1zDhf_fun53L0O_mwPNihwRhYJYFKr7Va)
+版本:inventor2017(有STL檔可以自行用Onshape、Solidworks開啟)
+
+2.增加送球機構的初步構想
+
+* [送球機構的初步構想影片](https://youtu.be/T4nHe_d0MZQ)
+
+3.增加送球機構的模擬運動展示
+
+* [送球機構模擬運動展示](https://youtu.be/_QBtCvsNc80)
+
+
+</t>
+<t tx="leo.20181018220228.2">#  W15
+
+
+
+
+
+</t>
+<t tx="leo.20181018220237.2">#  W16
+
+
+
+
+
+</t>
+<t tx="leo.20181018220314.2">#  W17
+
+
+
+
+
+</t>
+<t tx="leo.20190531145645.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018215848.2">#  W1
+<t tx="leo.20190531145645.2">##  W10
 
-心得:第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。
+1.修改網站格式:
 
+* [1](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/7629ecda282340f9c8ebf6a91f7da177a6ddeaf5)、[2](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/d7a24def9f8fb51463b9f19e343a8b481a3e40f6)
 
+2.增加教學內容影片:
+
+* [1](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/36eba6347665a1c2476972b22e6fe335bfb20699)、[2](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/Teaching%20film.html)
+
+3.Conflict resolution:
+
+* [Conflict resolution](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/c84ee48354be5190ff88e628d8c66c90804ad313)
+
+4.增加GitExtensions 使用教學
+
+* [GitExtensions 使用教學](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g4/content/GitExtensions%20%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8.html)
 
 </t>
-<t tx="leo.20181018220032.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531145901.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220032.2">#  W2
-
-心得:第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。
-
-
-
-</t>
-<t tx="leo.20181018220033.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150146.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220033.2">#  W3
-
-2018/10/24中秋節放假~
-
-石頭日式無煙燒肉
-
-散播歡樂散播愛
-
-
-
-</t>
-<t tx="leo.20181018220035.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150148.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220035.2">#  W4
-
-心得:第四週開始學習Onshape，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。
-
-
-
-</t>
-<t tx="leo.20181018220228.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150150.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220228.2">#  W5
+<t tx="leo.20190531150151.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150152.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150410.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+						
+</t>
+<t tx="leo.20190531150410.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150410.11">#  W5
 
 * 設計意圖指在設計進行前, 必須完成之專案目的與需求確認
 
@@ -474,64 +612,72 @@ make.start()
 
 
 </t>
-<t tx="leo.20181018220237.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150410.12">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220237.2">#  W6
+<t tx="leo.20190531150410.13">#  W6
 
 心得:瞭解老師給予的Onshape教材中的一些專屬名詞，把不懂的單字記錄下來，如果遇到這個單字時能夠迅速找到它的中文解釋，以及如何更新最新的CMSimfly，不然更新自己網站的內容時，因為某些原因導致  https://localhost:8443 一直出現錯誤而無法使用，還有討論到有關人事時地物等關鍵內容的架構安排。
 
 
 
 </t>
-<t tx="leo.20181018220314.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150410.14">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220314.2">#  W7
+<t tx="leo.20190531150410.15">#  W7
 
 心得:由於github在這禮拜突然故障，所以老師找出其他方法解決並探討，起初發現github沒辦法登入，本來以為自己推送成功，後來跑去看自己的倉儲才看到自己根本沒有推送東西上去，聽到老師說才知道是壞掉的問題，老師推論說github是因為在更換伺服器所以才暫時性無法使用，如果不是這個問題的話可能之後都要讓我們使用Fossli SCM 。
 
 
 
 </t>
-<t tx="leo.20181018220316.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150410.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181018220316.2">#  W8
+<t tx="leo.20190531150410.17">#  W8
 
 心得:這一週課程是讓我們題交推送之前尚未完成的Week，並知道自己學到哪裡，然而期中考過後準備分組課程，一組以六個人為單位，這八週，從學習github到繪製Onshape，再到可以熟練繪製Onshape，然而了解一些畫法，找出因應方法，接下來就是開始準備期中過後的課程了~
 
 
 
 </t>
-<t tx="leo.20181108125313.1">&lt;section data-markdown&gt;
+<t tx="leo.20190531150410.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
     &lt;/script&gt;
 &lt;/section&gt;
 
 
+
 						
 </t>
-<t tx="leo.20181108125313.2">#  W9
+<t tx="leo.20190531150410.19">#  W9
 
 期中考週~
 
@@ -541,6 +687,103 @@ make.start()
 
 
 
+</t>
+<t tx="leo.20190531150410.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150410.3">#  W1
+
+心得:第一週開始重新接觸github有點害怕，但是聽老師解說之後其實只是沿用上學期學過的東西，所以我覺得應該是撐得住，但是這學期還多加了一個名叫''Onshape''這套軟件，因為從來沒接觸過所以還是有點害怕，但是聽到老師引用把餐廳的食物(Onshape)吃下去，甚至做得更好吃(學習)，讓我覺得反而不可怕了。</t>
+<t tx="leo.20190531150410.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150410.5">#  W2
+
+心得:第二週學習如何管理期中作業倉儲的網站內容以及投影片內容，每週必須放上進度，到期中的時候會操作期中考作業，到時去管理自己的倉儲，做法大約是平常上課教的，應該是可以做完。
+
+
+
+</t>
+<t tx="leo.20190531150410.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150410.7">#  W3
+
+2018/10/24中秋節放假~
+
+石頭日式無煙燒肉
+
+散播歡樂散播愛
+
+
+
+</t>
+<t tx="leo.20190531150410.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150410.9">#  W4
+
+心得:第四週開始學習Onshape，這一週剛開始讓我自己熟悉一下它的介面，發現其實與其它不同的軟體譬如inventor等等這些軟體相似，然而我從簡單的繪圖開始，到後面使用掃略以及斷面混成，想必只要有心一定學得起來的。
+
+
+
+</t>
+<t tx="leo.20190531150542.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20190531150542.2">##  W11
+
+1.整合網站格式
+
+* [整合網站格式](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/0cdf529d2830d7cb4ab90754fe78d93fba1bebaa)
+
+2.新增分頁
+
+* [新增分頁](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g4/commit/10bff720fd37d528ad0eb15023c1817f5a73ce34)
+
+3.學習使用fork以及pull requests
+
+* [學習使用fork以及pull requests](https://github.com/40623224/cd2019b)
 </t>
 </tnodes>
 </leo_file>
