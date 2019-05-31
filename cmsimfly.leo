@@ -9,23 +9,23 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20160714225308.1"><vh>@settings</vh>
+<v t="amd.20160714225308.1" a="E"><vh>@settings</vh>
 <v t="amd.20160714225308.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20160714225308.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180702145534.1"><vh>wsgi start/stop</vh>
+<v t="leo.20180702145534.1" a="E"><vh>wsgi start/stop</vh>
 <v t="leo.20180702142719.1"><vh>@button start wsgi</vh></v>
 <v t="leo.20180702142849.1"><vh>@button stop wsgi</vh></v>
 </v>
-<v t="leo.20180702145555.1"><vh>http start/stop</vh>
+<v t="leo.20180702145555.1" a="E"><vh>http start/stop</vh>
 <v t="leo.20180702145442.1"><vh>@button start http.server</vh></v>
 <v t="leo.20180702145458.1"><vh>@button stop http.server</vh></v>
 </v>
 <v t="leo.20180703102027.1"><vh>@edit README.md</vh></v>
-<v t="amd.20160714225245.2"><vh>about cmsimfly</vh>
+<v t="amd.20160714225245.2" a="E"><vh>about cmsimfly</vh>
 <v t="amd.20160714230137.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20160714230155.1"><vh>@edit LICENSE</vh></v>
-<v t="amd.20160715000709.1"><vh>註解</vh>
+<v t="amd.20160715000709.1" a="E"><vh>註解</vh>
 <v t="amd.20160715211540.1"><vh>處理 url 與 edit</vh></v>
 <v t="amd.20160715213810.1"><vh>必須處理 downloads 與 images 目錄</vh></v>
 <v t="leo.20180625155103.1"><vh>改為 pybean based</vh>
@@ -51,6 +51,8 @@
 <v t="amd.20160714230021.1"><vh>@edit init.py</vh></v>
 <v t="amd.20160714230050.1"><vh>@edit nocache.py</vh></v>
 <v t="leo.20180625155248.1"><vh>@edit pybean.py</vh></v>
+<v t="leo.20190531164157.1"><vh>newHeadline</vh></v>
+<v t="leo.20190531164400.1"><vh>newHeadline</vh></v>
 <v t="leo.20180625155728.1"><vh>@edit schema.sql</vh></v>
 <v t="amd.20160718130611.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20160717222221.1"><vh>@path static</vh>
@@ -2788,5 +2790,83 @@ bug 180726</t>
 
 
 </t>
+<t tx="leo.20190531164157.1">@color
+@language html
+
+&lt;!doctype html&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;meta http-equiv="content-type" content="text/html;charset=utf-8"&gt;
+&lt;title&gt;2018 Fall 分組網站&lt;/title&gt; &lt;link rel="stylesheet" type="text/css" href="./../static/cmsimply.css"&gt;
+
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shCore.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJScript.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushJava.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPython.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushSql.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushXml.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushPhp.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushLua.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCpp.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCss.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/syntaxhighlighter/shBrushCSharp.js"&gt;&lt;/script&gt;
+&lt;link type="text/css" rel="stylesheet" href="./../static/syntaxhighlighter/css/shCoreDefault.css"/&gt;
+&lt;script type="text/javascript"&gt;SyntaxHighlighter.all();&lt;/script&gt;
+
+&lt;script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+&lt;/script&gt;
+&lt;script src="./../static/fengari-web.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/Cango-13v08-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/CangoAxes-4v01-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../static/gearUtils-05.js"&gt;&lt;/script&gt;
+&lt;script src="https://scrum-3.github.io/web/brython/brython.js"&gt;&lt;/script&gt;
+&lt;script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;style&gt;
+img {
+    border: 2px solid blue;
+}
+&lt;/style&gt;
+
+&lt;script src="./../static/jquery.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+$(function(){
+    $("ul.topmenu&gt; li:has(ul) &gt; a").append('&lt;div class="arrow-right"&gt;&lt;/div&gt;');
+    $("ul.topmenu &gt; li ul li:has(ul) &gt; a").append('&lt;div class="arrow-right"&gt;&lt;/div&gt;');
+});
+&lt;/script&gt;
+
+&lt;/head&gt;&lt;header&gt;&lt;h1&gt;2019 Fall 40623224 Personal Website&lt;/h1&gt; &lt;confmenu&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="sitemap.html"&gt;Site Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./../reveal/index.html"&gt;reveal&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="./../blog/index.html"&gt;blog&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/confmenu&gt;&lt;/header&gt;
+&lt;div class='container'&gt;&lt;nav&gt;&lt;ul id='css3menu1' class='topmenu'&gt;&lt;li&gt;&lt;a href='Introduction.html'&gt;Introduction&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='CMSimfly 網站.html'&gt;CMSimfly 網站&lt;/a&gt;&lt;li&gt;&lt;a href='reveal 投影片.html'&gt;reveal 投影片&lt;/a&gt;&lt;li&gt;&lt;a href='pelican 網誌.html'&gt;pelican 網誌&lt;/a&gt;&lt;li&gt;&lt;a href='Mid-term operation.html'&gt;Mid-term operation&lt;/a&gt;&lt;li&gt;&lt;a href='Weekly.html'&gt;Weekly&lt;/a&gt;&lt;li&gt;&lt;a href='Python Manual.html'&gt;Python Manual&lt;/a&gt;&lt;li&gt;&lt;a href='OnShape Manual.html'&gt;OnShape Manual&lt;/a&gt;&lt;li&gt;&lt;a href='Fusion 360.html'&gt;Fusion 360&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;a href='Weekly Progress.html'&gt;Weekly Progress&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='Week1-9.html'&gt;Week1-9&lt;/a&gt;&lt;li&gt;&lt;a href='Week10-18.html'&gt;Week10-18&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;a href='Operation Demo.html'&gt;Operation Demo&lt;/a&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='如何建立可攜程式系統.html'&gt;如何建立可攜程式系統&lt;/a&gt;&lt;li&gt;&lt;a href='Start.bat製作.html'&gt;Start.bat製作&lt;/a&gt;&lt;li&gt;&lt;a href='Stop.bat製作.html'&gt;Stop.bat製作&lt;/a&gt;&lt;li&gt;&lt;a href='Kungit 製作.html'&gt;Kungit 製作&lt;/a&gt;&lt;li&gt;&lt;a href='Kungit使用教學.html'&gt;Kungit使用教學&lt;/a&gt;&lt;li&gt;&lt;a href='GitExtensions 使用教學.html'&gt;GitExtensions 使用教學&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;a href='Lesson notes.html'&gt;Lesson notes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;section&gt;Introduction &lt;&lt; &lt;a href='Introduction.html'&gt;Previous&lt;/a&gt; &lt;a href='reveal 投影片.html'&gt;Next&lt;/a&gt; &gt;&gt; reveal 投影片&lt;br /&gt;&lt;h1&gt;CMSimfly 網站&lt;/h1&gt;
+&lt;p&gt;各組必須自行更改 Config 中的網站標題, 且每次完成近端動態網頁編輯後, 以 generate_pages 按鈕, 將動態網頁資料轉為靜態網頁資料, 之後再新增、提交並推送到遠端倉儲.&lt;/p&gt;
+&lt;br /&gt;Introduction &lt;&lt; &lt;a href='Introduction.html'&gt;Previous&lt;/a&gt; &lt;a href='reveal 投影片.html'&gt;Next&lt;/a&gt; &gt;&gt; reveal 投影片&lt;/section&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</t>
+<t tx="leo.20190531164400.1">@killcolor
+
+siteTitle:2019 Fall 40623224 Personal Website
+password:c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec</t>
 </tnodes>
 </leo_file>
