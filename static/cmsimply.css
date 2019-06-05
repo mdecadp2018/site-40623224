@@ -2,7 +2,7 @@
   position: relative;
 }
 header{
-  background-image: #url("https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8601a18b87d6277f705d19c022381f30e824fcff.jpg"),
+  background-image: #url("https://hostr.co/file/xm4l925W71d9/2.gif"),
 							   #url("https://media1.tenor.com/images/edb2c458ad8a192eae5229e747221271/tenor.gif?itemid=11204899"),
 							   #linear-gradient(to left, rgba(220, 20, 60, 1),  rgba(255, 255, 0, 0.6));
   padding: 40px;
@@ -206,10 +206,10 @@ background-color: white;
 width: 195px;
 }
 body {
-  background-image: url("http://pics.sc.chinaz.com/Files/pic/faces/3721/03.gif"),
-                               url("https://gss0.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8601a18b87d6277f705d19c022381f30e824fcff.jpg"),
-							   url("http://www.playcast.ru/uploads/2013/12/05/6753979.gif"),
-                               linear-gradient(to left, rgba(30, 75, 115, 1),  rgba(255, 255, 255, 0));
+  background-image: url("https://04imgmini.eastday.com/mobile/20190222/20190222203609_b4019fa1c5c835f23c94170856ef6f77_16.gif"),
+                               url("https://hostr.co/file/xm4l925W71d9/2.gif"),
+							   url("http://cfile232.uf.daum.net/image/152E2C444F49D32A032428"),
+                               linear-gradient(to left, rgba(77, 31, 0, 1),  rgba(255, 255, 255, 0));
   margin-bottom: 120px;
   #background-size:100%;
   background-position: top 0px right 0px ,top 100% right 0%;
