@@ -67,6 +67,15 @@ $(function(){
 </ul>
 </confmenu></header>
 <div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='Introduction.html'>Introduction</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a><li><a href='Mid-term operation.html'>Mid-term operation</a><li><a href='Weekly.html'>Weekly</a><li><a href='Python Manual.html'>Python Manual</a><li><a href='OnShape Manual.html'>OnShape Manual</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul><li><a href='Weekly Progress.html'>Weekly Progress</a><ul><li><a href='Week1-9.html'>Week1-9</a><li><a href='Week10-18.html'>Week10-18</a></li></ul><li><a href='Operation Demo.html'>Operation Demo</a><ul><li><a href='如何建立可攜程式系統.html'>如何建立可攜程式系統</a><li><a href='Start.bat製作.html'>Start.bat製作</a><li><a href='Stop.bat製作.html'>Stop.bat製作</a><li><a href='Kungit 製作.html'>Kungit 製作</a><li><a href='Kungit使用教學.html'>Kungit使用教學</a><li><a href='GitExtensions 使用教學.html'>GitExtensions 使用教學</a></li></ul><li><a href='Lesson notes.html'>Lesson notes</a></li></ul></nav><section>GitExtensions 使用教學 << <a href='GitExtensions 使用教學.html'>Previous</a> <br /><h1>Lesson notes</h1>
+<p><strong>圖片網址的BUG:</strong></p>
+<p>原本的:</p>
+<p>page = [w.replace('/images/', './../images/') for w in page]<br>page = [w.replace('/downloads/', './../downloads/') for w in page]</p>
+<p>修改的:</p>
+<p>page = [w.replace('src="./../images/', 'src="./../images/') for w in page]<br>page = [w.replace('href="./../downloads/', 'href="./../downloads/') for w in page]</p>
+<p>對於頁面中的w進行更換，將 /images/ 換為 ./../images/ ，也就是<span>標籤的src 屬性</span><span>值是圖像文件的URL，引用該圖像的文件的絕對路徑或相對路徑，而URL 是指向站點內的文件。</span></p>
+<p>對於頁面中的w進行更換，將/downloads/ 換為 ./../downloads/，也就是<span>標籤的</span><span>href 是等號右邊用來放置要前往的連結網址，而download 屬性規定被下載的超鏈接目標。</span></p>
+<p>兩個都是以 content 為基準的相對目錄設定。</p>
+<hr>
 <p><strong>git 常用指令</strong></p>
 <p>git add .&nbsp; 新增所有改版內容</p>
 <p>git commit -m "提交訊息, 用來辨識版本" 在近端提交改版內容</p>
