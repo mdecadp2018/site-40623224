@@ -1,4 +1,4 @@
-# 2019 Fall 40623224 Personal Website
+# 2019 Spring 40623224 Personal Website
 
 Website: https://mdecadp2018.github.io/site-40623224/content/
 
